@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: CameraDepthBias
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity
+    Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=18000\n2230;362;1426;831;1547.892;382.542;1.164986;True;False\nNode;AmplifyShaderEditor.WorldPosInputsNode;1;-1540.904,205.8477;Inherit;False;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.WorldSpaceCameraPos;2;-1614.272,58.08591;Inherit;False;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.DistanceOpNode;3;-1254.009,110.9995;Inherit;False;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.AbsOpNode;4;-1088.651,130.721;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.TFHCRemapNode;5;-679.051,-63.46017;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0\nNode;AmplifyShaderEditor.LerpOp;6;-436.3243,-8.846588;Inherit;False;3;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;7;-859.579,-72.562;Inherit;False;Constant;_Float4;Float
+    3;15;0;Create;True;0;0;False;0;0;0;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;8;-868.6813,10.87485;Inherit;False;Constant;_Float5;Float
+    4;13;0;Create;True;0;0;False;0;10;0;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;9;-845.9255,94.31177;Inherit;False;Constant;_Float2;Float
+    1;15;0;Create;True;0;0;False;0;0;0;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;10;-841.3743,165.6129;Inherit;False;Constant;_Float3;Float
+    2;15;0;Create;True;0;0;False;0;1;0;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;11;-667.1222,108.4279;Inherit;False;Property;_MaxOffset1;Max
+    Offset;0;0;Create;True;0;0;False;0;0;0;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;13;-219.0218,-21.81931;Inherit;False;2;2;0;FLOAT3;0,0,0;False;1;FLOAT;0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.NormalVertexDataNode;14;-480.871,-136.9773;Inherit;False;0;5;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4\nNode;AmplifyShaderEditor.RangedFloatNode;12;-993.3541,304.2723;Inherit;False;Constant;_Float7;Float
+    6;13;0;Create;True;0;0;False;0;0.02;0;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;15;-765.1152,303.7192;Inherit;False;Max
+    Offset;1;0;False;1;0;FLOAT;0.02;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;0;-51.20677,-19.20254;Inherit;False;True;-1;Vertex
+    Offset;0;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nWireConnection;3;0;2;0\nWireConnection;3;1;1;0\nWireConnection;4;0;3;0\nWireConnection;5;0;4;0\nWireConnection;5;1;7;0\nWireConnection;5;2;8;0\nWireConnection;5;3;9;0\nWireConnection;5;4;10;0\nWireConnection;6;0;11;0\nWireConnection;6;1;15;0\nWireConnection;6;2;5;0\nWireConnection;13;0;14;0\nWireConnection;13;1;6;0\nWireConnection;0;0;13;0\nASEEND*/\n//CHKSM=36A8571DC05F846B86AD13E7BC48883CF8A86D81"
+  m_functionName: 
+  m_description: Moves vertices based on distance from it to camera
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_additionalDirectives:
+    m_validData: 0
+    m_isDirty: 0
+    m_moduleName: ' Additional Directives'
+    m_independentModule: 1
+    m_additionalDirectives: []
+    m_shaderFunctionDirectives: []
+    m_nativeDirectives: []
+    m_nativeDirectivesIndex: -1
+    m_nativeDirectivesFoldout: 0
+    m_directivesSaveItems: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 
+  m_previewPosition: 0
+  m_hidden: 0
