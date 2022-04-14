@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 752fb31c33a4df94780cdddc40d77d8c
 ModelImporter:
-  serializedVersion: 19300
+  serializedVersion: 25
   internalIDToNameTable:
   - first:
       1: 100000
@@ -28,7 +28,7 @@ ModelImporter:
       name: RedOnion
     second: {fileID: 2100000, guid: ae79ed6b49d5ca44587b190afdd17b74, type: 2}
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 1
     materialSearch: 2
     materialLocation: 0
@@ -61,7 +61,6 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
@@ -92,6 +91,7 @@ ModelImporter:
     normalSmoothingSource: 0
   referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
     serializedVersion: 3
     human: []
@@ -109,10 +109,8 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
-  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
