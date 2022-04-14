@@ -10,7 +10,7 @@ Material:
   m_Name: Decals_CobbleStone
   m_Shader: {fileID: 4800000, guid: e0f263085fb4be44bb2c3d02d1b65e8f, type: 3}
   m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP
-  m_LightmapFlags: 5
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -105,8 +105,8 @@ Material:
     - _OcclusionStrength: 0
     - _Parallax: 0.005
     - _Power: 1.13
-    - _PuddleFalloff: 0
-    - _PuddleMinHeight: 0.391
+    - _PuddleFalloff: 0.249
+    - _PuddleMinHeight: 0.416
     - _ReceivesSSR: 1
     - _ReferencePlane: 1
     - _RenderQueueType: 1
