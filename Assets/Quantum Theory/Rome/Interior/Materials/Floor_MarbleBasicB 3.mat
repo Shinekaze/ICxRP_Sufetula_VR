@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Wall_TravertineBrickColored-A
-  m_Shader: {fileID: 4800000, guid: 564ba6de41617844c824479072808a48, type: 3}
+  m_Name: Floor_MarbleBasicB 3
+  m_Shader: {fileID: 4800000, guid: d17b9a4d43fa1274b9215c7a4c4a26b7, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -20,11 +20,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseColor:
-        m_Texture: {fileID: 2800000, guid: f2e805ed50fcf2548ade9e9de39d6dd5, type: 3}
-        m_Scale: {x: 1, y: 1.2225}
+        m_Texture: {fileID: 2800000, guid: 0537b06a512938246a28ccc4fdd947d8, type: 3}
+        m_Scale: {x: 1, y: 0.305}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: aa2ef80e723e8c246810bb00607d5a25, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1a7ec3773a2a09945a081b15e7ab70fa, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -35,10 +35,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _DetailNormal:
-        m_Texture: {fileID: 2800000, guid: c8f6aec91d524bb42b0813c337f982ed, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -47,29 +43,25 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _GreyscaleAgeMap:
-        m_Texture: {fileID: 2800000, guid: d53a1745260bd0e448df9907dac1f929, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f2e805ed50fcf2548ade9e9de39d6dd5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 664e52df12c36354a973dffc059aa96d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mat:
-        m_Texture: {fileID: 2800000, guid: 85b693e671f11e142871e2cf028b5ceb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6c94a507caaed1d4f867d74d93ea90fe, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Material:
-        m_Texture: {fileID: 2800000, guid: 4ccb6673e47de4d40ada7d00ed2087dc, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 29efba5878333a24ebdff8a526366911, type: 3}
+        m_Scale: {x: 1, y: 0.305}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 4ccb6673e47de4d40ada7d00ed2087dc, type: 3}
-        m_Scale: {x: 1, y: 1.2225}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: aa2ef80e723e8c246810bb00607d5a25, type: 3}
-        m_Scale: {x: 1, y: 1.2225}
+        m_Texture: {fileID: 2800000, guid: 2aebccaef4c38b0438a04b2040dd2abd, type: 3}
+        m_Scale: {x: 1, y: 0.305}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
@@ -84,54 +76,34 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AC: 0.5
-    - _AOAmount: 0
-    - _AOFade: 0
-    - _AOLightness: 0
-    - _AOStrength: 0
-    - _AgeMapBrightness: 0.365
-    - _AgeMapContrast: 0.23
     - _AlphaCutoff: 0.5
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DetailNormalScale: 1
-    - _DetailTiling: 20
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _HeightScale: 0.013
-    - _MaxDistance: 15
-    - _MaxSamples: 25
     - _Metallic: 0
-    - _MinDistance: 5
     - _Mode: 0
-    - _NormalStrength: 1
     - _OcclusionStrength: 1
-    - _PaintGlossiness: 0.586
     - _Parallax: 0.02
-    - _Power: 2
-    - _ReferencePlane: 1
-    - _SmoothnessModulation: 0.479
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _StainPower: 2
-    - _TotalHeightBias: 1
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
     - _Bue: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorA: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorB: {r: 0, g: 1, b: 0, a: 0}
-    - _ColorC: {r: 0, g: 0, b: 1, a: 0}
+    - _ColorA: {r: 0.49286333, g: 0.63235295, b: 0.620809, a: 0}
+    - _ColorB: {r: 0.86764705, g: 0.7356521, b: 0.67625433, a: 0}
+    - _ColorC: {r: 0.19852942, g: 0.19852942, b: 0.19852942, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Green: {r: 1, g: 1, b: 1, a: 1}
-    - _PrimaryColor: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+    - _PrimaryColor: {r: 0.058823533, g: 0.14901961, b: 0.25882354, a: 1}
     - _Red: {r: 0.3413711, g: 0.4947052, b: 0.60294116, a: 1}
     - _SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    - _TertiaryColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    - _TertiaryColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
