@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Wall_Travertine
+  m_Name: Wall_TravertineB 1
   m_Shader: {fileID: 4800000, guid: 55886dcee22a5d840a653eeb404762ee, type: 3}
   m_ShaderKeywords: _DETAIL_MULX2 _EMISSION _METALLICGLOSSMAP _NORMALMAP
   m_LightmapFlags: 2
@@ -19,9 +19,13 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseColor:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 46138ca1a836c4a45873f7a1a99ed0e6, type: 3}
-        m_Scale: {x: 1.75, y: 2}
+        m_Texture: {fileID: 2800000, guid: 168f53c08f490184ea53c01672f45521, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
@@ -39,17 +43,29 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
+    - _GreyscaleAgeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d4153fc52f75e9d4eb88335fdb9e9924, type: 3}
-        m_Scale: {x: 1.75, y: 2}
+        m_Texture: {fileID: 2800000, guid: 5cae5750e8f66a241b4e18efdac488e1, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mat:
         m_Texture: {fileID: 2800000, guid: 85b693e671f11e142871e2cf028b5ceb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Material:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 106bc03cdf80e704bb2cdef5ff80e33a, type: 3}
-        m_Scale: {x: 1.75, y: 2}
+        m_Texture: {fileID: 2800000, guid: 9fbea323e2eb20e40b95831fdb3b09eb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 2800000, guid: 106bc03cdf80e704bb2cdef5ff80e33a, type: 3}
@@ -65,6 +81,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AOFade: 0
+    - _AgeMapContrast: 0
     - _AlphaCutoff: 0.5
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -81,8 +98,9 @@ Material:
     - _Mode: 0
     - _NormalStrength: 0
     - _OcclusionStrength: 0.531
+    - _PaintGlossiness: 0
     - _Parallax: 0.02
-    - _Power: 2
+    - _Power: 1
     - _ReferencePlane: 0
     - _SmoothnessModulation: 0
     - _SmoothnessTextureChannel: 0
@@ -97,6 +115,9 @@ Material:
     m_Colors:
     - _Bue: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorA: {r: 1, g: 0, b: 0, a: 0}
+    - _ColorB: {r: 0, g: 1, b: 0, a: 0}
+    - _ColorC: {r: 0, g: 0, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Green: {r: 1, g: 1, b: 1, a: 1}
     - _PrimaryColor: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
