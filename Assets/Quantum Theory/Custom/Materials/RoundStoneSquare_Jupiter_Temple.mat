@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BaseWoodE
+  m_Name: RoundStoneSquare_Jupiter_Temple
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_ShaderKeywords: _EMISSION _METALLICSPECGLOSSMAP _NORMALMAP
+  m_ShaderKeywords: _METALLICSPECGLOSSMAP _NORMALMAP _OCCLUSIONMAP
   m_LightmapFlags: 6
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -20,23 +20,27 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BaseColor:
-        m_Texture: {fileID: 2800000, guid: 3eb038e21401fbf4fb4644ca80b86d97, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: d335344f4204eff4487b016ff0d9b210, type: 3}
-        m_Scale: {x: 2, y: 2}
+        m_Texture: {fileID: 2800000, guid: bd8007ed541d7ea4f8b072ca27c834f5, type: 3}
+        m_Scale: {x: 0.74, y: 2.8}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 27bf663f88e00424fb29bd7c44f648d9, type: 3}
+        m_Texture: {fileID: 2800000, guid: da816b62c2c56df41a7be111eb5d8ef7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedo:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 1, y: 0.30555}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormal:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -46,30 +50,34 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 2, y: 2}
+        m_Scale: {x: 10, y: 10}
         m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d335344f4204eff4487b016ff0d9b210, type: 3}
-        m_Scale: {x: 2, y: 2}
-        m_Offset: {x: 0, y: 0}
-    - _Mat:
-        m_Texture: {fileID: 2800000, guid: dd211bc8fb2d4c745a9d5fc00670506f, type: 3}
+    - _HeightMap:
+        m_Texture: {fileID: 2800000, guid: 03b5973effdbd0847bc65eb3a9ec6ea1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Material:
-        m_Texture: {fileID: 2800000, guid: f306fe01ad58b294c836a9fd0666c072, type: 3}
+    - _MHAS:
+        m_Texture: {fileID: 2800000, guid: 0035bfb78a122e74e9c34a1bb541c169, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: bd8007ed541d7ea4f8b072ca27c834f5, type: 3}
+        m_Scale: {x: 0.74, y: 2.8}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicAndRoughness:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 7927f163c3bfd1840a5b1efe2ca8624b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0035bfb78a122e74e9c34a1bb541c169, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 78c3c892d5cd98e469aea75e3c9baeec, type: 3}
+        m_Texture: {fileID: 2800000, guid: da816b62c2c56df41a7be111eb5d8ef7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 0035bfb78a122e74e9c34a1bb541c169, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -93,70 +101,51 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AC: 0.5
-    - _AOAmount: 1
-    - _AOStrength: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
-    - _Cutoff: 0.488
+    - _Cutoff: 0.076
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _DetailOffsetScale: 4
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _HeightScale: 0.108
-    - _MaxDepth: 1
-    - _MaxDistance: 12
-    - _MaxSamples: 30
+    - _Height: 0.2
+    - _HeightScale: 0
     - _Metallic: 0
-    - _MinDepth: 0.209
-    - _MinDistance: 4
-    - _MinHeight: 0.5
     - _Mode: 0
-    - _NormalStrength: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Power: 1
-    - _PuddleFalloff: 0.471
+    - _Power: 1.95
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _Samples: 0
     - _Smoothness: 1
-    - _SmoothnessModulation: 0.508
+    - _SmoothnessModulation: 0.268
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _TotalHeightBias: 0.569
+    - _TotalHeightBias: 1
+    - _TransitionCrispness: 128
     - _UVSec: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _m: 0
-    - _node_4963: -0.09
-    - _node_6604: -10
-    - _node_9436: 1
-    - _vcmultipler: 1
+    - _alphapow: 0.69
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Bue: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Green: {r: 1, g: 1, b: 1, a: 1}
-    - _PrimaryColor: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
-    - _PuddleColor: {r: 0.45588237, g: 0.44071713, b: 0.42906576, a: 1}
-    - _Red: {r: 0.3413711, g: 0.4947052, b: 0.60294116, a: 1}
-    - _SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MultiplyColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _TertiaryColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
-    - _color: {r: 0, g: 0, b: 0, a: 1}
-    - _node_3888: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &6127868667913111677
+--- !u!114 &7637856022588920235
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
