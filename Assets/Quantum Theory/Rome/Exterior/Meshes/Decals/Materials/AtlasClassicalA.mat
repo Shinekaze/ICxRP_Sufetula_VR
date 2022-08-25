@@ -21,18 +21,21 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: AtlasClassicalA
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: 4800000, guid: 7b7864e688ef4a342afb25c50ef64274, type: 3}
   m_ShaderKeywords: _DETAIL_MULX2 _METALLICSPECGLOSSMAP _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
-  stringTagMap:
-    RenderType: Opaque
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseColor:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: d4153fc52f75e9d4eb88335fdb9e9924, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -43,6 +46,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: eeadd1e9d5a3fb44b8902bc63c03377b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap1:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -65,8 +72,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _GreyscaleAgeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: d4153fc52f75e9d4eb88335fdb9e9924, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex1:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Material:
@@ -77,8 +92,16 @@ Material:
         m_Texture: {fileID: 2800000, guid: 5a3e1628d4c971f49a55f554d4f12cec, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Normal:
         m_Texture: {fileID: 2800000, guid: eeadd1e9d5a3fb44b8902bc63c03377b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -121,15 +144,22 @@ Material:
     - _AC: 1
     - _AOAmount: 0
     - _AOFade: 0
+    - _AOLightness: 0
     - _AOStrength: 0
+    - _AOStrength1: 0
+    - _AgeMapContrast: 0
     - _AlphaClip: 0
     - _AlphaCutoff: 0.5
     - _Blend: 0
     - _BumpScale: 2
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _ColorContrast: 0
+    - _ColorFade: 0
+    - _ColorSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.68
+    - _Cutoff1: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 2
     - _DetailNormalScale: 1
@@ -151,7 +181,9 @@ Material:
     - _Mode: 0
     - _NormalScale: 1
     - _NormalStrength: 1
+    - _NormalStrength1: 1
     - _OcclusionStrength: 1
+    - _PaintGlossiness: 0
     - _Parallax: 0.02
     - _ParallaxRefPlane: 1
     - _ParallaxReferencePlane: 0
@@ -182,7 +214,10 @@ Material:
     - __dirty: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.8161765, g: 0.7754504, b: 0.7441609, a: 0}
+    - _Color: {r: 0.7137255, g: 0.7137255, b: 0.69411767, a: 0}
+    - _ColorA: {r: 1, g: 0, b: 0, a: 0}
+    - _ColorB: {r: 0, g: 1, b: 0, a: 0}
+    - _ColorC: {r: 0, g: 0, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _PuddleColor: {r: 0.29411766, g: 0.23921567, b: 0.19215685, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
