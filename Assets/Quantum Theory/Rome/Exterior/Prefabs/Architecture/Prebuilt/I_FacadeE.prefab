@@ -2298,6 +2298,7 @@ GameObject:
   - component: {fileID: 3392882}
   - component: {fileID: 2375568}
   - component: {fileID: 6498060}
+  - component: {fileID: 5114658323844214463}
   m_Layer: 0
   m_Name: I_FacadeFloor8x6_E
   m_TagString: Untagged
@@ -2382,6 +2383,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 45beb17740d833147818731b5130dec3, type: 3}
+--- !u!65 &5114658323844214463
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176344}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.000002, y: 6.000003, z: 3.7500014}
+  m_Center: {x: -3.999999, y: -3, z: 1.8750002}
 --- !u!1 &178824
 GameObject:
   m_ObjectHideFlags: 0

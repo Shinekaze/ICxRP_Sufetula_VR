@@ -3657,6 +3657,7 @@ GameObject:
   - component: {fileID: 450462}
   - component: {fileID: 3322244}
   - component: {fileID: 2370478}
+  - component: {fileID: 8728490855348091464}
   m_Layer: 0
   m_Name: I_Floor12x18_B
   m_TagString: Untagged
@@ -3732,6 +3733,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8728490855348091464
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126402}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 12.118877, y: 18.25001, z: 4.2500033}
+  m_Center: {x: -5.940564, y: 9.125005, z: 1.625173}
 --- !u!1 &126472
 GameObject:
   m_ObjectHideFlags: 0
