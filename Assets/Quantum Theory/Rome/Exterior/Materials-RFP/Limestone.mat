@@ -21,18 +21,21 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Limestone
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: 4800000, guid: b8a583118799b81439de0d93ce469b17, type: 3}
   m_ShaderKeywords: _METALLICSPECGLOSSMAP _NORMALMAP _OCCLUSIONMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
-  stringTagMap:
-    RenderType: Opaque
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseColor:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 44962b231206dfd4b9dda5d99ba0685e, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -65,6 +68,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
+    - _GreyscaleAgeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _HeightMap:
         m_Texture: {fileID: 2800000, guid: b862d089ef6335c43bb49973f35a4ebc, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -75,6 +82,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 44962b231206dfd4b9dda5d99ba0685e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Material:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicAndRoughness:
@@ -101,6 +112,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -114,6 +129,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AOFade: 0
+    - _AgeMapContrast: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 2.5
@@ -123,7 +140,9 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 0
+    - _DetailNormalScale: 1
     - _DetailOffsetScale: 0
+    - _DetailTiling: 11.3
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 1
@@ -133,26 +152,38 @@ Material:
     - _HeightScale: 0
     - _Metallic: 0
     - _Mode: 0
+    - _NormalStrength: 0
     - _OcclusionStrength: 1
+    - _PaintGlossiness: 0
     - _Parallax: 0.0548
     - _Power: 2
+    - _PuddleFalloff: 0
+    - _PuddleMinHeight: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _ReferencePlane: 0
     - _Samples: 0
     - _Smoothness: 0.559
     - _SmoothnessModulation: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _StainPower: 1
+    - _StainSmoothnessLimit: 0.5
     - _Surface: 0
     - _TotalHeightBias: 1
     - _TransitionCrispness: 6.03
     - _UVSec: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
+    - __dirty: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorA: {r: 1, g: 0, b: 0, a: 0}
+    - _ColorB: {r: 0, g: 1, b: 0, a: 0}
+    - _ColorC: {r: 0, g: 0, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _PuddleColor: {r: 0.29411766, g: 0.23921567, b: 0.19215685, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
