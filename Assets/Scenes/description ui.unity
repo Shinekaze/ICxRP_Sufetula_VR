@@ -789,7 +789,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 6dcf5fc5826bb7648acb5b197f32755a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3210,7 +3210,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 266944570}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f22603527a2995469863fc3b8ffc2eb, type: 3}
+  m_Script: {fileID: 11500000, guid: 587896e7932e27d438d3c9b855d93e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Panel: {fileID: 874870997}
@@ -3259,7 +3259,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 266944572}
-        m_TargetAssemblyTypeName: PannelActivee, Assembly-CSharp
+        m_TargetAssemblyTypeName: PannelActive, Assembly-CSharp
         m_MethodName: OpenPanel
         m_Mode: 1
         m_Arguments:
@@ -7086,7 +7086,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &874870998
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10148,6 +10148,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7511558181221131132, guid: 247d1f490a23a4744a6e602f16bd42a6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6dcf5fc5826bb7648acb5b197f32755a, type: 2}
     - target: {fileID: 716144451820993639, guid: 247d1f490a23a4744a6e602f16bd42a6,
         type: 3}
       propertyPath: m_Name
@@ -10516,7 +10521,7 @@ PrefabInstance:
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a,
         type: 3}
