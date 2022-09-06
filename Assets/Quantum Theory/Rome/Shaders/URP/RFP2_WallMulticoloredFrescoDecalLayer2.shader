@@ -4,7 +4,7 @@ Shader "Quantum Theory/URP/PBR - Rome Multicolored Fresco Decal Layer 2"
 {
 	Properties
 	{
-		[HideInInspector] _AlphaCutoff("Alpha Cutoff ", Range(0, 1)) = 0.5
+		_AlphaCutoff("Alpha Cutoff ", Range(0, 1)) = 0.5
 		[HideInInspector] _EmissionColor("Emission Color", Color) = (1,1,1,1)
 		_BaseColor("Base Color", 2D) = "white" {}
 		_NormalMap("Normal Map", 2D) = "bump" {}
@@ -41,7 +41,7 @@ Shader "Quantum Theory/URP/PBR - Rome Multicolored Fresco Decal Layer 2"
 		AlphaToMask Off
 		HLSLINCLUDE
 		#pragma target 2.0
-
+		
 		float4 FixedTess( float tessValue )
 		{
 			return tessValue;
@@ -149,7 +149,8 @@ Shader "Quantum Theory/URP/PBR - Rome Multicolored Fresco Decal Layer 2"
 			Name "Forward"
 			Tags { "LightMode"="UniversalForward" }
 			
-			Blend One Zero, One Zero
+//			Blend One Zero, One Zero
+			Blend one zero, zero one
 			ZWrite On
 			ZTest LEqual
 			Offset -2 , -3
@@ -175,6 +176,9 @@ Shader "Quantum Theory/URP/PBR - Rome Multicolored Fresco Decal Layer 2"
 			#pragma multi_compile _ _SHADOWS_SOFT
 			#pragma multi_compile _ _MIXED_LIGHTING_SUBTRACTIVE
 			
+			#pragma shader_feature_local_fragment _ALPHATEST_ON
+            #pragma shader_feature_local_fragment _ALPHAPREMULTIPLY_ON
+			
 			#pragma multi_compile _ DIRLIGHTMAP_COMBINED
 			#pragma multi_compile _ LIGHTMAP_ON
 
@@ -192,6 +196,7 @@ Shader "Quantum Theory/URP/PBR - Rome Multicolored Fresco Decal Layer 2"
 			#if ASE_SRP_VERSION <= 70108
 			#define REQUIRES_VERTEX_SHADOW_COORD_INTERPOLATOR
 			#endif
+			
 
 			
 
@@ -447,7 +452,7 @@ Shader "Quantum Theory/URP/PBR - Rome Multicolored Fresco Decal Layer 2"
 				float Metallic = tex2DNode38.r;
 				float Smoothness = _PaintGlossiness;
 				float Occlusion = tex2DNode38.g;
-				float Alpha = 1;
+				float Alpha = tex2DNode3.a;
 				float AlphaClipThreshold = 0.5;
 				float AlphaClipThresholdShadow = 0.5;
 				float3 BakedGI = 0;
@@ -457,7 +462,8 @@ Shader "Quantum Theory/URP/PBR - Rome Multicolored Fresco Decal Layer 2"
 				float3 Translucency = 1;
 
 				#ifdef _ALPHATEST_ON
-					clip(Alpha - AlphaClipThreshold);
+					clip(Alpha - AlphaClipThreshold);  // Todo: here is something interesting
+					// AlphaTest Greater 0.5
 				#endif
 
 				InputData inputData;
@@ -602,6 +608,8 @@ Shader "Quantum Theory/URP/PBR - Rome Multicolored Fresco Decal Layer 2"
 
 			#pragma prefer_hlslcc gles
 			#pragma exclude_renderers d3d11_9x
+
+			#pragma shader_feature_local_fragment _ALPHATEST_ON
 
 			#pragma vertex vert
 			#pragma fragment frag
@@ -857,6 +865,8 @@ Shader "Quantum Theory/URP/PBR - Rome Multicolored Fresco Decal Layer 2"
 			#pragma prefer_hlslcc gles
 			#pragma exclude_renderers d3d11_9x
 
+			#pragma shader_feature_local_fragment _ALPHATEST_ON
+
 			#pragma vertex vert
 			#pragma fragment frag
 
@@ -1081,7 +1091,7 @@ Shader "Quantum Theory/URP/PBR - Rome Multicolored Fresco Decal Layer 2"
 			Tags { "LightMode"="Meta" }
 
 			Cull Off
-
+			
 			HLSLPROGRAM
 			#define _NORMAL_DROPOFF_TS 1
 			#pragma multi_compile_instancing
@@ -1093,6 +1103,8 @@ Shader "Quantum Theory/URP/PBR - Rome Multicolored Fresco Decal Layer 2"
 
 			#pragma prefer_hlslcc gles
 			#pragma exclude_renderers d3d11_9x
+
+			#pragma shader_feature_local_fragment _ALPHATEST_ON
 
 			#pragma vertex vert
 			#pragma fragment frag
@@ -1357,6 +1369,8 @@ Shader "Quantum Theory/URP/PBR - Rome Multicolored Fresco Decal Layer 2"
 			#pragma enable_d3d11_debug_symbols
 			#pragma prefer_hlslcc gles
 			#pragma exclude_renderers d3d11_9x
+
+			#pragma shader_feature_local_fragment _ALPHATEST_ON
 
 			#pragma vertex vert
 			#pragma fragment frag

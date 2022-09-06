@@ -170,6 +170,9 @@ Shader "Quantum Theory/URP/PBR - Puddle Decal"
 			#pragma prefer_hlslcc gles
 			#pragma exclude_renderers d3d11_9x
 
+			#pragma shader_feature_local_fragment _ALPHATEST_ON
+            #pragma shader_feature_local_fragment _ALPHAPREMULTIPLY_ON
+
 			#pragma multi_compile _ _MAIN_LIGHT_SHADOWS
 			#pragma multi_compile _ _MAIN_LIGHT_SHADOWS_CASCADE
 			#pragma multi_compile _ _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHTS
@@ -619,6 +622,8 @@ Shader "Quantum Theory/URP/PBR - Puddle Decal"
 			#pragma prefer_hlslcc gles
 			#pragma exclude_renderers d3d11_9x
 
+			#pragma shader_feature_local_fragment _ALPHATEST_ON
+
 			#pragma vertex vert
 			#pragma fragment frag
 
@@ -887,6 +892,8 @@ Shader "Quantum Theory/URP/PBR - Puddle Decal"
 			#pragma prefer_hlslcc gles
 			#pragma exclude_renderers d3d11_9x
 
+			#pragma shader_feature_local_fragment _ALPHATEST_ON
+
 			#pragma vertex vert
 			#pragma fragment frag
 
@@ -1137,6 +1144,8 @@ Shader "Quantum Theory/URP/PBR - Puddle Decal"
 
 			#pragma prefer_hlslcc gles
 			#pragma exclude_renderers d3d11_9x
+
+			#pragma shader_feature_local_fragment _ALPHATEST_ON
 
 			#pragma vertex vert
 			#pragma fragment frag
@@ -1415,6 +1424,8 @@ Shader "Quantum Theory/URP/PBR - Puddle Decal"
 			#pragma enable_d3d11_debug_symbols
 			#pragma prefer_hlslcc gles
 			#pragma exclude_renderers d3d11_9x
+
+			#pragma shader_feature_local_fragment _ALPHATEST_ON
 
 			#pragma vertex vert
 			#pragma fragment frag

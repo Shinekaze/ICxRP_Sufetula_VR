@@ -68,7 +68,7 @@ Shader "Quantum Theory/URP/PBR - Wetness Blend"
 		ENDCG
 	}
 	Fallback "Diffuse"
-	CustomEditor "ASEMaterialInspector"
+//	CustomEditor "ASEMaterialInspector"
 }
 /*ASEBEGIN
 Version=18400

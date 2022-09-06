@@ -8,9 +8,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Wall_Travertine
-  m_Shader: {fileID: 4800000, guid: b8a583118799b81439de0d93ce469b17, type: 3}
+  m_Shader: {fileID: 4800000, guid: 55886dcee22a5d840a653eeb404762ee, type: 3}
   m_ShaderKeywords: _DETAIL_MULX2 _EMISSION _METALLICGLOSSMAP _NORMALMAP
-  m_LightmapFlags: 2
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -21,7 +21,7 @@ Material:
     m_TexEnvs:
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: 46138ca1a836c4a45873f7a1a99ed0e6, type: 3}
-        m_Scale: {x: 1.75, y: 2}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
@@ -41,7 +41,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: d4153fc52f75e9d4eb88335fdb9e9924, type: 3}
-        m_Scale: {x: 1.75, y: 2}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mat:
         m_Texture: {fileID: 2800000, guid: 85b693e671f11e142871e2cf028b5ceb, type: 3}
@@ -49,7 +49,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 2800000, guid: 106bc03cdf80e704bb2cdef5ff80e33a, type: 3}
-        m_Scale: {x: 1.75, y: 2}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 2800000, guid: 106bc03cdf80e704bb2cdef5ff80e33a, type: 3}

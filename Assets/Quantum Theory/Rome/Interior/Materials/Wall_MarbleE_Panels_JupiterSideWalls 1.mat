@@ -21,21 +21,22 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Wall_MarbleE_Panels_JupiterSideWalls 1
-  m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _METALLICSPECGLOSSMAP _NORMALMAP
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_ShaderKeywords: _NORMALMAP _SPECULAR_SETUP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 6dcad879db683dc449a50c759df05c89, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: -0.5}
+        m_Scale: {x: 0.1, y: -0.17}
+        m_Offset: {x: 0, y: 0.345}
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: 82a11b47114d1b44d926b411dad16a8f, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -117,14 +118,14 @@ Material:
     - _Parallax: 0.02
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 1
+    - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
     - _TotalHeightBias: 1
     - _UVSec: 0
-    - _WorkflowMode: 1
+    - _WorkflowMode: 0
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}

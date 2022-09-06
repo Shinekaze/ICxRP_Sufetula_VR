@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FrescoIcons2_StyleALayer2
-  m_Shader: {fileID: 4800000, guid: e08625c9a861fac4aa3f181caeed1e65, type: 3}
-  m_ShaderKeywords: _NORMALMAP
+  m_Shader: {fileID: 4800000, guid: d0f5616eb2c537845bcc0278187d5586, type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _METALLICSPECGLOSSMAP _NORMALMAP
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -21,10 +21,6 @@ Material:
     m_TexEnvs:
     - _BaseColor:
         m_Texture: {fileID: 2800000, guid: e6d295722049b3b41b9635ce42d8a02d, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BaseMap:
-        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -75,23 +71,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _texcoord:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -101,11 +81,8 @@ Material:
     - _Age: 3.6
     - _AgeMapBrightness: 0.51
     - _AgeMapContrast: 0.188
-    - _AlphaClip: 0
-    - _AlphaCutoff: 0.95
-    - _Blend: 0
+    - _AlphaCutoff: 0.467
     - _BumpScale: 1
-    - _Cull: 2
     - _Cutoff: 0.1
     - _CutoffVCGreen: 0.9
     - _DetailNormalMapScale: 1
@@ -120,19 +97,16 @@ Material:
     - _NormalStrength: 0.516
     - _OcclusionStrength: 1
     - _PaintAge: 2.34
-    - _PaintGlossiness: 0.482
+    - _PaintGlossiness: 0.619
     - _Parallax: 0.02
-    - _QueueOffset: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Surface: 0
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
     - _AgeColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorA: {r: 0.6691176, g: 0.18695937, b: 0.18695937, a: 1}
     - _ColorB: {r: 0.9411765, g: 0.7369051, b: 0.20069207, a: 1}

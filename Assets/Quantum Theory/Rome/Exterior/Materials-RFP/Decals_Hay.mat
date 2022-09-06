@@ -8,9 +8,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Decals_Hay
-  m_Shader: {fileID: 4800000, guid: 98c154ace3ec9c8459232264a744fa15, type: 3}
+  m_Shader: {fileID: 4800000, guid: c8648b4aa433b9e4683a973fa510f549, type: 3}
   m_ShaderKeywords: _ALPHATEST_ON _METALLICGLOSSMAP _NORMALMAP
-  m_LightmapFlags: 2
+  m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -97,6 +97,7 @@ Material:
     - _PuddleFalloff: 0
     - _PuddleMinHeight: 0
     - _ReceivesSSR: 1
+    - _ReferencePlane: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
     - _Samples: 0

@@ -20,7 +20,7 @@ Shader "Quantum Theory/PBR - Rome Multicolored Fresco Decal"
 
 	SubShader
 	{
-		Tags{ "RenderType" = "TransparentCutout"  "Queue" = "Geometry+0" }
+		Tags{ "RenderType" = "Opaque"  "Queue" = "Geometry+0" }
 		Cull Back
 		Offset  -1 , -2
 		CGPROGRAM

@@ -172,6 +172,9 @@ Shader "Quantum Theory/URP/PBR - Parallax Mapping Puddle Decal"
 			#pragma prefer_hlslcc gles
 			#pragma exclude_renderers d3d11_9x
 
+			#pragma shader_feature_local_fragment _ALPHATEST_ON
+            #pragma shader_feature_local_fragment _ALPHAPREMULTIPLY_ON
+
 			#pragma multi_compile _ _MAIN_LIGHT_SHADOWS
 			#pragma multi_compile _ _MAIN_LIGHT_SHADOWS_CASCADE
 			#pragma multi_compile _ _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHTS
@@ -543,6 +546,8 @@ Shader "Quantum Theory/URP/PBR - Parallax Mapping Puddle Decal"
 				float Smoothness = ( ( 1.0 - ( ( 1.0 - tex2DNode9.a ) * ( temp_output_57_0 + 0.1 ) ) ) + ( _StainSmoothnessLimit * ( 1.0 - IN.ase_color.a ) ) );
 				float Occlusion = saturate( ( ( temp_output_24_0 + tex2DNode9.g ) + _AOFade ) );
 				float Alpha = ( ( tex2DNode9.b + 0.5 ) * IN.ase_color.g );
+				// float Alpha = ( ( tex2DNode9.b ) * IN.ase_color.g );
+				
 				float AlphaClipThreshold = 0.5;
 				float AlphaClipThresholdShadow = 0.5;
 				float3 BakedGI = 0;
@@ -552,7 +557,7 @@ Shader "Quantum Theory/URP/PBR - Parallax Mapping Puddle Decal"
 				float3 Translucency = 1;
 
 				#ifdef _ALPHATEST_ON
-					clip(Alpha - AlphaClipThreshold);
+					clip(Alpha - AlphaClipThreshold-1);
 				#endif
 
 				InputData inputData;
@@ -697,6 +702,8 @@ Shader "Quantum Theory/URP/PBR - Parallax Mapping Puddle Decal"
 
 			#pragma prefer_hlslcc gles
 			#pragma exclude_renderers d3d11_9x
+
+			#pragma shader_feature_local_fragment _ALPHATEST_ON
 
 			#pragma vertex vert
 			#pragma fragment frag
@@ -1064,6 +1071,8 @@ Shader "Quantum Theory/URP/PBR - Parallax Mapping Puddle Decal"
 			#pragma prefer_hlslcc gles
 			#pragma exclude_renderers d3d11_9x
 
+			#pragma shader_feature_local_fragment _ALPHATEST_ON
+
 			#pragma vertex vert
 			#pragma fragment frag
 
@@ -1412,6 +1421,8 @@ Shader "Quantum Theory/URP/PBR - Parallax Mapping Puddle Decal"
 
 			#pragma prefer_hlslcc gles
 			#pragma exclude_renderers d3d11_9x
+
+			#pragma shader_feature_local_fragment _ALPHATEST_ON
 
 			#pragma vertex vert
 			#pragma fragment frag
@@ -1788,6 +1799,8 @@ Shader "Quantum Theory/URP/PBR - Parallax Mapping Puddle Decal"
 			#pragma enable_d3d11_debug_symbols
 			#pragma prefer_hlslcc gles
 			#pragma exclude_renderers d3d11_9x
+
+			#pragma shader_feature_local_fragment _ALPHATEST_ON
 
 			#pragma vertex vert
 			#pragma fragment frag

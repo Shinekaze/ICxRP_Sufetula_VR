@@ -8,9 +8,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Marble_PillarC
-  m_Shader: {fileID: 4800000, guid: d0e8b4d9ca33b3e40b4b61ca5defe6d2, type: 3}
+  m_Shader: {fileID: 4800000, guid: c6ef4def7c9a93f479ccdc63477266d4, type: 3}
   m_ShaderKeywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP
-  m_LightmapFlags: 2
+  m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -82,7 +82,6 @@ Material:
     m_Floats:
     - _AC: 0.5
     - _AOAmount: 1
-    - _AOFade: 0
     - _AOLightness: 0
     - _AgeMapBrightness: 0.631
     - _AgeMapContrast: 0.587
@@ -105,13 +104,10 @@ Material:
     - _PaintGlossiness: 0.4
     - _Parallax: 0.02
     - _Power: 2.33
-    - _ReferencePlane: 0
     - _SmoothnessModulation: 0.433
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _StainPower: 1
-    - _StainSmoothnessLimit: 0.5
     - _TotalHeightBias: 1
     - _UVSec: 0
     - _ZWrite: 1

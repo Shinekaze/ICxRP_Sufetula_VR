@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: BaseConcreteC 3
-  m_Shader: {fileID: 4800000, guid: b8a583118799b81439de0d93ce469b17, type: 3}
+  m_Shader: {fileID: 4800000, guid: 55886dcee22a5d840a653eeb404762ee, type: 3}
   m_ShaderKeywords: _DETAIL_MULX2 _METALLICSPECGLOSSMAP _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -99,6 +99,7 @@ Material:
     m_Floats:
     - _AOFade: 0
     - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0

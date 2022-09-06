@@ -21,9 +21,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: BaseBrass_Ceiling
-  m_Shader: {fileID: 4800000, guid: b8a583118799b81439de0d93ce469b17, type: 3}
+  m_Shader: {fileID: 4800000, guid: 55886dcee22a5d840a653eeb404762ee, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 6
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -118,6 +118,7 @@ Material:
     - _AOFade: 0
     - _AOStrength: 0
     - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0

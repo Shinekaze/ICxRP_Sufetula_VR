@@ -446,7 +446,7 @@ Shader "Quantum Theory/RFP/URP/PBR - Puddle"
 				float4 tex2DNode9 = tex2D( _MetallicGlossMap, uv_MetallicGlossMap );
 				float temp_output_24_0 = ( 1.0 - IN.ase_color.b );
 				float temp_output_26_0 = ( _PuddleMinHeight * temp_output_24_0 );
-				float lerpResult34 = lerp( ( pow( ( ( tex2DNode9.b - temp_output_26_0 ) / ( 1.0 - temp_output_26_0 ) ) , _PuddleFalloff ) + 0.2 ) , 1.0 , IN.ase_color.b);
+				float lerpResult34 = lerp( ( pow(abs(( ( tex2DNode9.b - temp_output_26_0 ) / ( 1.0 - temp_output_26_0 ) )) , _PuddleFalloff ) + 0.2 ) , 1.0 , IN.ase_color.b);
 				float temp_output_57_0 = saturate( lerpResult34 );
 				float4 lerpResult36 = lerp( _PuddleColor , pow( tex2D( _MainTex, uv_MetallicGlossMap ) , temp_cast_0 ) , temp_output_57_0);
 				

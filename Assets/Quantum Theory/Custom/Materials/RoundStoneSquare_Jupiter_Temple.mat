@@ -8,13 +8,14 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: RoundStoneSquare_Jupiter_Temple
-  m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _METALLICSPECGLOSSMAP _NORMALMAP _OCCLUSIONMAP
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_ShaderKeywords: _NORMALMAP _OCCLUSIONMAP _SPECULAR_SETUP
   m_LightmapFlags: 6
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -125,7 +126,7 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Samples: 0
-    - _Smoothness: 1
+    - _Smoothness: 0.5
     - _SmoothnessModulation: 0.268
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -134,7 +135,7 @@ Material:
     - _TotalHeightBias: 1
     - _TransitionCrispness: 128
     - _UVSec: 0
-    - _WorkflowMode: 1
+    - _WorkflowMode: 0
     - _ZWrite: 1
     - _alphapow: 0.69
     m_Colors:
