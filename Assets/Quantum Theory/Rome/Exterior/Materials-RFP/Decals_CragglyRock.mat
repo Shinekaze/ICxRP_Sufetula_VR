@@ -8,20 +8,25 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Decals_CragglyRock
-  m_Shader: {fileID: 4800000, guid: e0f263085fb4be44bb2c3d02d1b65e8f, type: 3}
-  m_ShaderKeywords: _NORMALMAP
-  m_LightmapFlags: 5
+  m_Shader: {fileID: 4800000, guid: 7718beab7c8f68b409f514fd7c111c20, type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _METALLICSPECGLOSSMAP _NORMALMAP
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - SHADOWCASTER
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseColor:
         m_Texture: {fileID: 2800000, guid: 1da9e5cb83e029449a0f1d82e0d8a976, type: 3}
         m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: 6638b89d43b8222439ff48f48b42174c, type: 3}
@@ -83,31 +88,56 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AOFade: 0
     - _AddPrecomputedVelocity: 1
+    - _AlphaClip: 1
     - _AlphaCutoff: 0.5
     - _AlphaCutoffEnable: 1
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
+    - _Blend: 0
     - _BlendMode: 0
     - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
     - _ColorPower: 6
     - _Colorpower: 8
+    - _Cull: 2
     - _CullMode: 2
     - _CullModeForward: 2
     - _Cutoff: 0.5
     - _DecalCutoff: 0
+    - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DoubleSidedEnable: 0
     - _DoubleSidedNormalMode: 2
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _EnableFogOnTransparent: 1
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
     - _Glossiness: 0.5
+    - _GlossyReflections: 0
     - _HeightScale: 0.033
     - _MaxOffset1: 0
     - _Metallic: 0
@@ -118,13 +148,18 @@ Material:
     - _Power: 2.27
     - _PuddleFalloff: 1
     - _PuddleMinHeight: 0.645
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
     - _ReceivesSSR: 1
     - _ReferencePlane: 1
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
     - _Samples: 40
+    - _Smoothness: 0.5
     - _SmoothnessModulation: 1
-    - _SrcBlend: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
     - _StainPower: 2
     - _StainSmoothnessLimit: 0.5
     - _StencilRef: 0
@@ -137,6 +172,7 @@ Material:
     - _StencilWriteMaskDistortionVec: 64
     - _StencilWriteMaskGBuffer: 3
     - _StencilWriteMaskMV: 128
+    - _Surface: 1
     - _SurfaceType: 0
     - _TotalHeightBias: 1
     - _TransitionCrispness: 128
@@ -146,10 +182,11 @@ Material:
     - _TransparentZWrite: 1
     - _UVSec: 0
     - _UseShadowThreshold: 0
+    - _WorkflowMode: 1
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
-    - _ZWrite: 1
+    - _ZWrite: 0
     - __dirty: 1
     - _cutoff: 0
     - _node_1120: 5
@@ -157,9 +194,11 @@ Material:
     - _puddlecutoff: 1
     - _puddlepower: 8
     m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MultiplyColor: {r: 1, g: 1, b: 1, a: 1}
     - _PuddleColor: {r: 0.24264699, g: 0.22113854, b: 0.17484859, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
