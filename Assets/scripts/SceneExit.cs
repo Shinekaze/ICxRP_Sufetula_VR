@@ -11,7 +11,10 @@ public class SceneExit : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
-        PlayerPrefs.SetString("LastExitName", exitName);
-        SceneManager.LoadScene(sceneToLoad);
+        if(other.gameObject.CompareTag("Player"))
+        {
+            PlayerPrefs.SetString("LastExitName",exitName);
+            SceneManager.LoadScene(sceneToLoad);
+        }
     }
 }
