@@ -9,14 +9,13 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Decals_CragglyRock
   m_Shader: {fileID: 4800000, guid: 7718beab7c8f68b409f514fd7c111c20, type: 3}
-  m_ShaderKeywords: _ALPHATEST_ON _METALLICSPECGLOSSMAP _NORMALMAP
+  m_ShaderKeywords: _METALLICSPECGLOSSMAP _NORMALMAP
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses:
-  - SHADOWCASTER
+  disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -111,7 +110,7 @@ Material:
     m_Floats:
     - _AOFade: 0
     - _AddPrecomputedVelocity: 1
-    - _AlphaClip: 1
+    - _AlphaClip: 0
     - _AlphaCutoff: 0.5
     - _AlphaCutoffEnable: 1
     - _AlphaDstBlend: 0
@@ -132,7 +131,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DoubleSidedEnable: 0
     - _DoubleSidedNormalMode: 2
-    - _DstBlend: 10
+    - _DstBlend: 0
     - _EnableFogOnTransparent: 1
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
@@ -159,7 +158,7 @@ Material:
     - _SmoothnessModulation: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SrcBlend: 5
+    - _SrcBlend: 1
     - _StainPower: 2
     - _StainSmoothnessLimit: 0.5
     - _StencilRef: 0
@@ -172,7 +171,7 @@ Material:
     - _StencilWriteMaskDistortionVec: 64
     - _StencilWriteMaskGBuffer: 3
     - _StencilWriteMaskMV: 128
-    - _Surface: 1
+    - _Surface: 0
     - _SurfaceType: 0
     - _TotalHeightBias: 1
     - _TransitionCrispness: 128
@@ -186,7 +185,7 @@ Material:
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
-    - _ZWrite: 0
+    - _ZWrite: 1
     - __dirty: 1
     - _cutoff: 0
     - _node_1120: 5
