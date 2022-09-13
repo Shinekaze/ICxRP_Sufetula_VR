@@ -15,8 +15,7 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses:
-  - SHADOWCASTER
+  disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -176,7 +175,7 @@ Material:
     - _DetailTiling: 1
     - _DoubleSidedEnable: 0
     - _DoubleSidedNormalMode: 2
-    - _DstBlend: 10
+    - _DstBlend: 0
     - _EnableFogOnTransparent: 1
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
@@ -207,7 +206,7 @@ Material:
     - _SmoothnessModulation1: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SrcBlend: 5
+    - _SrcBlend: 1
     - _StainCleanup: 0
     - _StainPower: 2
     - _StainSmoothnessLimit: 0.5
@@ -221,7 +220,7 @@ Material:
     - _StencilWriteMaskDistortionVec: 64
     - _StencilWriteMaskGBuffer: 3
     - _StencilWriteMaskMV: 128
-    - _Surface: 1
+    - _Surface: 0
     - _SurfaceType: 0
     - _Tiling: 0
     - _TotalHeightBias: 1
@@ -238,7 +237,7 @@ Material:
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
-    - _ZWrite: 0
+    - _ZWrite: 1
     - __dirty: 1
     - _cutoff: 0
     - _node_1120: 5
