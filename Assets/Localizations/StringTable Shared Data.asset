@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: StringTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: StringTable
+  m_TableCollectionNameGuidString: 91fe4c1b4658ad64083a67109e8b689a
+  m_Entries:
+  - m_Id: 150805618688
+    m_Key: ForumSelectionText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50862562418688
+    m_Key: BackButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51153810694144
+    m_Key: MenuButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53094485794816
+    m_Key: LanguageButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54401640636416
+    m_Key: ForumButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54733707878400
+    m_Key: LoadForumButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55023005802496
+    m_Key: DiocletianButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55215553716224
+    m_Key: LoadDiocletianButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57605090648064
+    m_Key: DiocletianSelectionText
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1663433549641
