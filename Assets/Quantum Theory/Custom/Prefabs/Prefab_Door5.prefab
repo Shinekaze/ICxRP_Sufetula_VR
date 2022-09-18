@@ -95,12 +95,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 038f7f09ecd824b4fb1031bfb3bb769c, type: 3}
+--- !u!1 &669347162829130887 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 038f7f09ecd824b4fb1031bfb3bb769c,
+    type: 3}
+  m_PrefabInstance: {fileID: 669347162829163047}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &669347162829557927 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 038f7f09ecd824b4fb1031bfb3bb769c,
     type: 3}
   m_PrefabInstance: {fileID: 669347162829163047}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &5529126944504237391
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669347162829130887}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1999997, y: 0.12500004, z: 3.5}
+  m_Center: {x: -0.59999996, y: -0.06249998, z: 1.75}
 --- !u!1001 &1765862590384675527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -170,12 +189,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 038f7f09ecd824b4fb1031bfb3bb769c, type: 3}
+--- !u!1 &1765862590384577639 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 038f7f09ecd824b4fb1031bfb3bb769c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1765862590384675527}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1765862590384275527 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 038f7f09ecd824b4fb1031bfb3bb769c,
     type: 3}
   m_PrefabInstance: {fileID: 1765862590384675527}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &5529006618055570187
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765862590384577639}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1999997, y: 0.12500004, z: 3.5}
+  m_Center: {x: -0.59999996, y: -0.06249998, z: 1.75}
 --- !u!1001 &5302403842836300778
 PrefabInstance:
   m_ObjectHideFlags: 0

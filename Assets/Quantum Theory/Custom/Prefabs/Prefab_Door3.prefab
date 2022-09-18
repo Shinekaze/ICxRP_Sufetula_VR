@@ -95,12 +95,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7cd2b37556a8e94192d44514e06cf8a, type: 3}
+--- !u!1 &899864118203331429 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c7cd2b37556a8e94192d44514e06cf8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 899864118203299269}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &899864118203690821 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c7cd2b37556a8e94192d44514e06cf8a,
     type: 3}
   m_PrefabInstance: {fileID: 899864118203299269}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &6746260105339519944
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899864118203331429}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1999997, y: 0.12500004, z: 2.4000025}
+  m_Center: {x: 0.59999985, y: -0.06249998, z: 1.2000012}
 --- !u!1001 &5302403842836300778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -300,9 +319,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7cd2b37556a8e94192d44514e06cf8a, type: 3}
+--- !u!1 &8852710875197098580 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c7cd2b37556a8e94192d44514e06cf8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 8852710875197197556}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8852710875197068916 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c7cd2b37556a8e94192d44514e06cf8a,
     type: 3}
   m_PrefabInstance: {fileID: 8852710875197197556}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &3015965607142891498
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8852710875197098580}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1999997, y: 0.12500004, z: 2.4000025}
+  m_Center: {x: 0.59999985, y: -0.06249998, z: 1.2000012}
