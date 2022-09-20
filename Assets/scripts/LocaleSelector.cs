@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Localization.Settings;using UnityEngine.Purchasing;
+using UnityEngine.Localization.Settings;
+//using UnityEngine.Purchasing;
 // Arabic = 0
 // English = 1
 // French = 2
@@ -17,11 +18,11 @@ public class LocaleSelector : MonoBehaviour
         StartCoroutine(SetLocale(localeID));
     }
     
-    IEnumerator SetLocale(int _localeID)
+    IEnumerator SetLocale(int localeID)
     {
         active = true;
         yield return LocalizationSettings.InitializationOperation;
-        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[_localeID];
+        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localeID];
         active = false;
     }
 }
