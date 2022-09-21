@@ -18,11 +18,11 @@ public class LocaleSelector : MonoBehaviour
         StartCoroutine(SetLocale(localeID));
     }
     
-    IEnumerator SetLocale(int localeID)
+    IEnumerator SetLocale(int _localeID)
     {
         active = true;
         yield return LocalizationSettings.InitializationOperation;
-        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localeID];
+        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[_localeID];
         active = false;
     }
 }
