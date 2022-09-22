@@ -13,6 +13,7 @@ public class ArabicText : MonoBehaviour
 {
     [Multiline]
     public string Text;
+    public Text TextComponent;
     public InputField RefrenceInput;
     public bool ShowTashkeel;
     public bool UseHinduNumbers;
@@ -26,6 +27,8 @@ public class ArabicText : MonoBehaviour
     private bool OldEnabled = false; // For Refresh on enabled change // when text ui is not active then arabic text will not trigered when the control get active
     private List<RectTransform> OldRectTransformParents = new List<RectTransform>(); // For Refresh on parent resizing
     private Vector2 OldScreenRect = new Vector2(Screen.width, Screen.height); // For Refresh on screen resizing
+    
+    
     public void Awake()
     {
         GetRectTransformParents(OldRectTransformParents);
@@ -33,6 +36,8 @@ public class ArabicText : MonoBehaviour
 
     public void Start()
     {
+        Text = TextComponent.text;
+        // TextComponent.alignment = TextAnchor.MiddleRight;
         txt = gameObject.GetComponent<UnityEngine.UI.Text>();
         rectTransform = GetComponent<RectTransform>();
     }
@@ -62,6 +67,7 @@ public class ArabicText : MonoBehaviour
 
     public void Update()
     {
+        
         if (!txt)
             return;
 
@@ -78,8 +84,9 @@ public class ArabicText : MonoBehaviour
             return;
 
 
+        
         FixTextForUI();
-
+    
         OldText = Text;
         OldFontSize = txt.fontSize;
         OldDeltaSize = rectTransform.sizeDelta;
