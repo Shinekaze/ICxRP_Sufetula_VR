@@ -13,7 +13,7 @@ public class ArabicText : MonoBehaviour
 {
     [Multiline]
     public string Text;
-    public Text TextComponent;
+    // public Text TextComponent;
     public InputField RefrenceInput;
     public bool ShowTashkeel;
     public bool UseHinduNumbers;
@@ -36,7 +36,7 @@ public class ArabicText : MonoBehaviour
 
     public void Start()
     {
-        Text = TextComponent.text;
+        // Text = TextComponent.text;
         // TextComponent.alignment = TextAnchor.MiddleRight;
         txt = gameObject.GetComponent<UnityEngine.UI.Text>();
         rectTransform = GetComponent<RectTransform>();
