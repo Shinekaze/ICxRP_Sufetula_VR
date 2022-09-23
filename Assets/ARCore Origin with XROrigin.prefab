@@ -138,8 +138,9 @@ GameObject:
   - component: {fileID: 4487037767221766473}
   - component: {fileID: 6639712032638215796}
   - component: {fileID: 3121871261722276061}
+  - component: {fileID: 1244970024128455177}
   m_Layer: 5
-  m_Name: Text
+  m_Name: SceneBackText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -243,8 +244,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1244970024128455177}
+        m_TargetAssemblyTypeName: ArabicText_Localized, Assembly-CSharp
+        m_MethodName: Start
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   references:
     version: 1
+--- !u!114 &1244970024128455177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217513583233936988}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2551cf70d4659b34bb4dfb5b2a958d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: 
+  TextComponent: {fileID: 6639712032638215796}
+  RefrenceInput: {fileID: 0}
+  ShowTashkeel: 0
+  UseHinduNumbers: 0
 --- !u!1 &258480895868219398
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,8 +432,9 @@ GameObject:
   - component: {fileID: 8945897249188649795}
   - component: {fileID: 7630049406596679469}
   - component: {fileID: 4592150245541666406}
+  - component: {fileID: 1826549691040848428}
   m_Layer: 5
-  m_Name: Text
+  m_Name: MenuLanguageText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -507,8 +538,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1826549691040848428}
+        m_TargetAssemblyTypeName: ArabicText_Localized, Assembly-CSharp
+        m_MethodName: Start
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   references:
     version: 1
+--- !u!114 &1826549691040848428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486191786138355478}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2551cf70d4659b34bb4dfb5b2a958d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: 
+  TextComponent: {fileID: 7630049406596679469}
+  RefrenceInput: {fileID: 0}
+  ShowTashkeel: 0
+  UseHinduNumbers: 0
 --- !u!1 &726587878273554292
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,6 +624,7 @@ GameObject:
   - component: {fileID: 5130030800219384854}
   - component: {fileID: 2336586202397857843}
   - component: {fileID: 4486982059850952363}
+  - component: {fileID: 1902169683388202667}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -631,7 +692,23 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0639\u0631\u0628\u064A"
+  m_Text: "\uFEF2\uFE91\uFEAE\uFECB"
+--- !u!114 &1902169683388202667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743369355879375911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 696ce2cd40d49484ab618bf74d31d4ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: "\u0639\u0631\u0628\u064A"
+  RefrenceInput: {fileID: 0}
+  ShowTashkeel: 0
+  UseHinduNumbers: 0
 --- !u!1 &886752838931218778
 GameObject:
   m_ObjectHideFlags: 0
@@ -1163,8 +1240,9 @@ GameObject:
   - component: {fileID: 5570308376620097997}
   - component: {fileID: 813413496416372243}
   - component: {fileID: 5596545383876305070}
+  - component: {fileID: 8520727292039753848}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ForumSelectButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1268,8 +1346,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8520727292039753848}
+        m_TargetAssemblyTypeName: ArabicText_Localized, Assembly-CSharp
+        m_MethodName: Start
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   references:
     version: 1
+--- !u!114 &8520727292039753848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655607757042791090}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2551cf70d4659b34bb4dfb5b2a958d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: 
+  TextComponent: {fileID: 813413496416372243}
+  RefrenceInput: {fileID: 0}
+  ShowTashkeel: 0
+  UseHinduNumbers: 0
 --- !u!1 &1760118010110605722
 GameObject:
   m_ObjectHideFlags: 0
@@ -1357,6 +1464,9 @@ GameObject:
   - component: {fileID: 2899854723831552145}
   - component: {fileID: 7272645458928920898}
   - component: {fileID: 2224876123902699798}
+  - component: {fileID: 1482641561726558358}
+  - component: {fileID: 2009885430775041422}
+  - component: {fileID: 8559042845092298249}
   m_Layer: 5
   m_Name: French_Button
   m_TagString: Untagged
@@ -1502,6 +1612,237 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1482641561726558358}
+        m_TargetAssemblyTypeName: TextAlignment, Assembly-CSharp
+        m_MethodName: setAlignment
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MiddleLeft
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2009885430775041422}
+        m_TargetAssemblyTypeName: TextAlignment, Assembly-CSharp
+        m_MethodName: setAlignment
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MiddleLeft
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 8559042845092298249}
+        m_TargetAssemblyTypeName: TextAlignment, Assembly-CSharp
+        m_MethodName: setAlignment
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MiddleLeft
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1826549691040848428}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7388062932890703354}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8520727292039753848}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4681899204291486268}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1244970024128455177}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4389657629762566677}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7069175141892631027}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8867386549139544154}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2540539112344206587}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2975804654863742026}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2009441886213384573}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5265845756143899661}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6286492330209543240}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1482641561726558358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890161596841862251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76683359178b90b48802e361b4917b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextComponent: {fileID: 2395720198280282311}
+--- !u!114 &2009885430775041422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890161596841862251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76683359178b90b48802e361b4917b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextComponent: {fileID: 4996028457080908278}
+--- !u!114 &8559042845092298249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890161596841862251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76683359178b90b48802e361b4917b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextComponent: {fileID: 5834160992345941911}
 --- !u!1 &1927274203973920869
 GameObject:
   m_ObjectHideFlags: 0
@@ -1516,8 +1857,9 @@ GameObject:
   - component: {fileID: 1245207747234128537}
   - component: {fileID: 5590362098086044632}
   - component: {fileID: 2395720198280282311}
+  - component: {fileID: 2009441886213384573}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ForumLoaderText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1539,7 +1881,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 250621.56}
+  m_AnchoredPosition: {x: 0, y: 1920755.4}
   m_SizeDelta: {x: 600, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &1415037051089607202
@@ -1677,90 +2019,24 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Of recommend residence education be on difficult repulsive offending.
-    Judge views had mirth table seems great him for her. Alone all happy asked begin
-    fully stand own get. Excuse ye seeing result of we. See scale dried songs old
-    may not. Promotion did disposing you household any instantly. Hills we do under
-    times at first short an.
-
-
-
-    Of be talent me answer do relied. Mistress in
-    on so laughing throwing endeavor occasion welcomed. Gravity sir brandon calling
-    can. No years do widow house delay stand. Prospect six kindness use steepest
-    new ask. High gone kind calm call as ever is. Introduced melancholy estimating
-    motionless on up as do. Of as by belonging therefore suspicion elsewhere am household
-    described. Domestic suitable bachelor for landlord fat.
-
-
-
-    Feet evil to hold
-    long he open knew an no. Apartments occasional boisterous as solicitude to introduced.
-    Or fifteen covered we enjoyed demesne is in prepare. In stimulated my everything
-    it literature. Greatly explain attempt perhaps in feeling he. House men taste
-    bed not drawn joy. Through enquire however do equally herself at. Greatly way
-    old may you present improve. Wishing the feeling village him musical.
-
-
-
-    Frankness
-    applauded by supported ye household. Collected favourite now for for and rapturous
-    repulsive consulted. An seems green be wrote again. She add what own only like.
-    Tolerably we as extremity exquisite do commanded. Doubtful offended do entrance
-    of landlord moreover is mistress in. Nay was appear entire ladies. Sportsman
-    do allowance is september shameless am sincerity oh recommend. Gate tell man
-    day that who.
-
-
-
-    Rendered her for put improved concerns his. Ladies bed wisdom
-    theirs mrs men months set. Everything so dispatched as it increasing pianoforte.
-    Hearing now saw perhaps minutes herself his. Of instantly excellent therefore
-    difficult he northward. Joy green but least marry rapid quiet but. Way devonshire
-    introduced expression saw travelling affronting. Her and effects affixed pretend
-    account ten natural. Need eat week even yet that. Incommode delighted he resolving
-    sportsmen do in listening.
-
-
-
-    No comfort do written conduct at prevent manners
-    on. Celebrated contrasted discretion him sympathize her collecting occasional.
-    Do answered bachelor occasion in of offended no concerns. Supply worthy warmth
-    branch of no ye. Voice tried known to as my to. Though wished merits or be. Alone
-    visit use these smart rooms ham. No waiting in on enjoyed placing it inquiry.
-
-
-
-    For
-    who thoroughly her boy estimating conviction. Removed demands expense account
-    in outward tedious do. Particular way thoroughly unaffected projection favourable
-    mrs can projecting own. Thirty it matter enable become admire in giving. See
-    resolved goodness felicity shy civility domestic had but. Drawings offended yet
-    answered jennings perceive laughing six did far.
-
-
-
-    Bed sincerity yet therefore
-    forfeited his certainty neglected questions. Pursuit chamber as elderly amongst
-    on. Distant however warrant farther to of. My justice wishing prudent waiting
-    in be. Comparison age not pianoforte increasing delightful now. Insipidity sufficient
-    dispatched any reasonably led ask. Announcing if attachment resolution sentiments
-    admiration me on diminution.
-
-
-
-    He difficult contented we determine ourselves
-    me am earnestly. Hour no find it park. Eat welcomed any husbands moderate. Led
-    was misery played waited almost cousin living. Of intention contained is by middleton
-    am. Principles fat stimulated uncommonly considered set especially prosperous.
-    Sons at park mr meet as fact like.
-
-
-
-    Oh to talking improve produce in limited
-    offices fifteen an. Wicket branch to answer do we. Place are decay men hours
-    tiled. If or of ye throwing friendly required. Marianne interest in exertion
-    as. Offering my branched confined oh dashwood.'
+  m_Text: 
+--- !u!114 &2009441886213384573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927274203973920869}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2551cf70d4659b34bb4dfb5b2a958d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: 
+  TextComponent: {fileID: 2395720198280282311}
+  RefrenceInput: {fileID: 0}
+  ShowTashkeel: 0
+  UseHinduNumbers: 0
 --- !u!1 &1944486431054018810
 GameObject:
   m_ObjectHideFlags: 0
@@ -1920,8 +2196,9 @@ GameObject:
   - component: {fileID: 3120853462707093283}
   - component: {fileID: 4955158312777755666}
   - component: {fileID: 1050300250440798549}
+  - component: {fileID: 7388062932890703354}
   m_Layer: 5
-  m_Name: Text
+  m_Name: MenuMenuText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2025,8 +2302,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7388062932890703354}
+        m_TargetAssemblyTypeName: ArabicText_Localized, Assembly-CSharp
+        m_MethodName: Start
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   references:
     version: 1
+--- !u!114 &7388062932890703354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028088693700707719}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2551cf70d4659b34bb4dfb5b2a958d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: 
+  TextComponent: {fileID: 4955158312777755666}
+  RefrenceInput: {fileID: 0}
+  ShowTashkeel: 0
+  UseHinduNumbers: 0
 --- !u!1 &2208537342217414804
 GameObject:
   m_ObjectHideFlags: 0
@@ -2220,8 +2526,9 @@ GameObject:
   - component: {fileID: 6542565668062416022}
   - component: {fileID: 7375942524404901082}
   - component: {fileID: 464924001752523726}
+  - component: {fileID: 2540539112344206587}
   m_Layer: 5
-  m_Name: Text
+  m_Name: DiocletianLoadBackText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2325,8 +2632,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2540539112344206587}
+        m_TargetAssemblyTypeName: ArabicText_Localized, Assembly-CSharp
+        m_MethodName: Start
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   references:
     version: 1
+--- !u!114 &2540539112344206587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2225286099728791608}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2551cf70d4659b34bb4dfb5b2a958d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: 
+  TextComponent: {fileID: 7375942524404901082}
+  RefrenceInput: {fileID: 0}
+  ShowTashkeel: 0
+  UseHinduNumbers: 0
 --- !u!1 &2267112228850563309
 GameObject:
   m_ObjectHideFlags: 0
@@ -2536,8 +2872,9 @@ GameObject:
   - component: {fileID: 5582000016973599384}
   - component: {fileID: 4350524706383273453}
   - component: {fileID: 7706008554601519463}
+  - component: {fileID: 4389657629762566677}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ForumLoadButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2641,8 +2978,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 4389657629762566677}
+        m_TargetAssemblyTypeName: ArabicText_Localized, Assembly-CSharp
+        m_MethodName: Start
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   references:
     version: 1
+--- !u!114 &4389657629762566677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506067225145869028}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2551cf70d4659b34bb4dfb5b2a958d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: 
+  TextComponent: {fileID: 4350524706383273453}
+  RefrenceInput: {fileID: 0}
+  ShowTashkeel: 0
+  UseHinduNumbers: 0
 --- !u!1 &2536978560734454229
 GameObject:
   m_ObjectHideFlags: 0
@@ -2699,8 +3065,9 @@ GameObject:
   - component: {fileID: 785607281281099985}
   - component: {fileID: 4737894921770746635}
   - component: {fileID: 134305904602724488}
+  - component: {fileID: 8867386549139544154}
   m_Layer: 5
-  m_Name: Text
+  m_Name: DiocletianLoadButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2783,7 +3150,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:91fe4c1b4658ad64083a67109e8b689a
     m_TableEntryReference:
-      m_KeyId: 54733707878400
+      m_KeyId: 55215553716224
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -2804,8 +3171,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8867386549139544154}
+        m_TargetAssemblyTypeName: ArabicText_Localized, Assembly-CSharp
+        m_MethodName: Start
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   references:
     version: 1
+--- !u!114 &8867386549139544154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2763312498976745701}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2551cf70d4659b34bb4dfb5b2a958d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: 
+  TextComponent: {fileID: 4737894921770746635}
+  RefrenceInput: {fileID: 0}
+  ShowTashkeel: 0
+  UseHinduNumbers: 0
 --- !u!1 &2846537311296594591
 GameObject:
   m_ObjectHideFlags: 0
@@ -2943,8 +3339,9 @@ GameObject:
   - component: {fileID: 8189712822039023189}
   - component: {fileID: 8868161201297805872}
   - component: {fileID: 5370870756380569309}
+  - component: {fileID: 7069175141892631027}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ForumLoadBackText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3048,8 +3445,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7069175141892631027}
+        m_TargetAssemblyTypeName: ArabicText_Localized, Assembly-CSharp
+        m_MethodName: Start
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   references:
     version: 1
+--- !u!114 &7069175141892631027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2970849460092387667}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2551cf70d4659b34bb4dfb5b2a958d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: 
+  TextComponent: {fileID: 8868161201297805872}
+  RefrenceInput: {fileID: 0}
+  ShowTashkeel: 0
+  UseHinduNumbers: 0
 --- !u!1 &3073326740135148689
 GameObject:
   m_ObjectHideFlags: 0
@@ -4566,6 +4992,9 @@ GameObject:
   - component: {fileID: 9220419526526299548}
   - component: {fileID: 8350526003720447558}
   - component: {fileID: 1754334251163155246}
+  - component: {fileID: 4629843442788800919}
+  - component: {fileID: 232521305046377015}
+  - component: {fileID: 7713577656980621867}
   m_Layer: 5
   m_Name: Arabic_Button
   m_TagString: Untagged
@@ -4711,6 +5140,237 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 4629843442788800919}
+        m_TargetAssemblyTypeName: TextAlignment, Assembly-CSharp
+        m_MethodName: setAlignment
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MiddleRight
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 232521305046377015}
+        m_TargetAssemblyTypeName: TextAlignment, Assembly-CSharp
+        m_MethodName: setAlignment
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MiddleRight
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 7713577656980621867}
+        m_TargetAssemblyTypeName: TextAlignment, Assembly-CSharp
+        m_MethodName: setAlignment
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MiddleRight
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2009441886213384573}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 5265845756143899661}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 6286492330209543240}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1826549691040848428}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 7388062932890703354}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 8520727292039753848}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 4681899204291486268}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1244970024128455177}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 4389657629762566677}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 7069175141892631027}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 8867386549139544154}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2540539112344206587}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2975804654863742026}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &4629843442788800919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3918295694174855311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76683359178b90b48802e361b4917b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextComponent: {fileID: 2395720198280282311}
+--- !u!114 &232521305046377015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3918295694174855311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76683359178b90b48802e361b4917b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextComponent: {fileID: 4996028457080908278}
+--- !u!114 &7713577656980621867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3918295694174855311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76683359178b90b48802e361b4917b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextComponent: {fileID: 5834160992345941911}
 --- !u!1 &3923175899503643976
 GameObject:
   m_ObjectHideFlags: 0
@@ -5476,6 +6136,9 @@ GameObject:
   - component: {fileID: 7471984139635450623}
   - component: {fileID: 3311606237629311661}
   - component: {fileID: 4362861983083771823}
+  - component: {fileID: 5657375018779219058}
+  - component: {fileID: 6548255346112152441}
+  - component: {fileID: 8821579791460665922}
   m_Layer: 5
   m_Name: German_Button
   m_TagString: Untagged
@@ -5621,6 +6284,237 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 5657375018779219058}
+        m_TargetAssemblyTypeName: TextAlignment, Assembly-CSharp
+        m_MethodName: setAlignment
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MiddleLeft
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 6548255346112152441}
+        m_TargetAssemblyTypeName: TextAlignment, Assembly-CSharp
+        m_MethodName: setAlignment
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MiddleLeft
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 8821579791460665922}
+        m_TargetAssemblyTypeName: TextAlignment, Assembly-CSharp
+        m_MethodName: setAlignment
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MiddleLeft
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2009441886213384573}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5265845756143899661}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6286492330209543240}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1826549691040848428}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7388062932890703354}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8520727292039753848}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4681899204291486268}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1244970024128455177}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4389657629762566677}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7069175141892631027}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8867386549139544154}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2540539112344206587}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2975804654863742026}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5657375018779219058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4673783977789919556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76683359178b90b48802e361b4917b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextComponent: {fileID: 2395720198280282311}
+--- !u!114 &6548255346112152441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4673783977789919556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76683359178b90b48802e361b4917b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextComponent: {fileID: 4996028457080908278}
+--- !u!114 &8821579791460665922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4673783977789919556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76683359178b90b48802e361b4917b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextComponent: {fileID: 5834160992345941911}
 --- !u!1 &4688911551892229195
 GameObject:
   m_ObjectHideFlags: 0
@@ -5755,6 +6649,9 @@ GameObject:
   - component: {fileID: 8153719010973139453}
   - component: {fileID: 1934321197589324399}
   - component: {fileID: 4042075861320831171}
+  - component: {fileID: 4046341365389446866}
+  - component: {fileID: 8797390787365304906}
+  - component: {fileID: 4786655746720659666}
   m_Layer: 5
   m_Name: English_Button
   m_TagString: Untagged
@@ -5900,6 +6797,237 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 4046341365389446866}
+        m_TargetAssemblyTypeName: TextAlignment, Assembly-CSharp
+        m_MethodName: setAlignment
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MiddleLeft
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 8797390787365304906}
+        m_TargetAssemblyTypeName: TextAlignment, Assembly-CSharp
+        m_MethodName: setAlignment
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MiddleLeft
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 4786655746720659666}
+        m_TargetAssemblyTypeName: TextAlignment, Assembly-CSharp
+        m_MethodName: setAlignment
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MiddleLeft
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1826549691040848428}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7388062932890703354}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8520727292039753848}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4681899204291486268}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1244970024128455177}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4389657629762566677}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7069175141892631027}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8867386549139544154}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2540539112344206587}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2975804654863742026}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2009441886213384573}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5265845756143899661}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6286492330209543240}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4046341365389446866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5122233935747046705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76683359178b90b48802e361b4917b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextComponent: {fileID: 2395720198280282311}
+--- !u!114 &8797390787365304906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5122233935747046705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76683359178b90b48802e361b4917b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextComponent: {fileID: 4737894921770746635}
+--- !u!114 &4786655746720659666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5122233935747046705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76683359178b90b48802e361b4917b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextComponent: {fileID: 5834160992345941911}
 --- !u!1 &5231754797604063999
 GameObject:
   m_ObjectHideFlags: 0
@@ -5912,8 +7040,9 @@ GameObject:
   - component: {fileID: 3701567743825989094}
   - component: {fileID: 296970514972135948}
   - component: {fileID: 7086121979093688884}
+  - component: {fileID: 2975804654863742026}
   m_Layer: 5
-  m_Name: Text
+  m_Name: InfoDisplayBackText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6017,8 +7146,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2975804654863742026}
+        m_TargetAssemblyTypeName: ArabicText_Localized, Assembly-CSharp
+        m_MethodName: Start
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   references:
     version: 1
+--- !u!114 &2975804654863742026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5231754797604063999}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2551cf70d4659b34bb4dfb5b2a958d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: 
+  TextComponent: {fileID: 296970514972135948}
+  RefrenceInput: {fileID: 0}
+  ShowTashkeel: 0
+  UseHinduNumbers: 0
 --- !u!1 &5526990127132356506
 GameObject:
   m_ObjectHideFlags: 0
@@ -6886,8 +8044,9 @@ GameObject:
   - component: {fileID: 6067061746016176101}
   - component: {fileID: 6615663036843818632}
   - component: {fileID: 5834160992345941911}
+  - component: {fileID: 6286492330209543240}
   m_Layer: 5
-  m_Name: InfopointText
+  m_Name: InfoDisplayText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6909,7 +8068,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.00009025962}
+  m_AnchoredPosition: {x: 0, y: 2394983.8}
   m_SizeDelta: {x: 600, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &7722334380990172708
@@ -7009,6 +8168,23 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Generic placeholding text for the infopoints
+--- !u!114 &6286492330209543240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7418138857527160515}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2551cf70d4659b34bb4dfb5b2a958d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: 
+  TextComponent: {fileID: 5834160992345941911}
+  RefrenceInput: {fileID: 0}
+  ShowTashkeel: 0
+  UseHinduNumbers: 0
 --- !u!1 &7433876201467126896
 GameObject:
   m_ObjectHideFlags: 0
@@ -7250,8 +8426,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2402698556663572240}
   m_HandleRect: {fileID: 2348917498193471937}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 1
+  m_Value: 1
+  m_Size: 0
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7268,8 +8444,9 @@ GameObject:
   - component: {fileID: 7380317519585420784}
   - component: {fileID: 4475163135070542299}
   - component: {fileID: 3934907043288346269}
+  - component: {fileID: 4681899204291486268}
   m_Layer: 5
-  m_Name: Text
+  m_Name: DiocletianSelectButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7373,8 +8550,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 4681899204291486268}
+        m_TargetAssemblyTypeName: ArabicText_Localized, Assembly-CSharp
+        m_MethodName: Start
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   references:
     version: 1
+--- !u!114 &4681899204291486268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7733976329755413400}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2551cf70d4659b34bb4dfb5b2a958d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: 
+  TextComponent: {fileID: 4475163135070542299}
+  RefrenceInput: {fileID: 0}
+  ShowTashkeel: 0
+  UseHinduNumbers: 0
 --- !u!1 &7865521415918941666
 GameObject:
   m_ObjectHideFlags: 0
@@ -7389,8 +8595,9 @@ GameObject:
   - component: {fileID: 4054970111075418333}
   - component: {fileID: 7514606481098178990}
   - component: {fileID: 4996028457080908278}
+  - component: {fileID: 5265845756143899661}
   m_Layer: 5
-  m_Name: Text
+  m_Name: DiocletianLoaderText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7412,7 +8619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 107878.84}
+  m_AnchoredPosition: {x: 0, y: 887225.94}
   m_SizeDelta: {x: 600, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9024515884674929474
@@ -7550,172 +8757,24 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0645\u0646 \u064A\u0648\u0635\u064A \u0627\u0644\u062A\u0639\u0644\u064A\u0645
-    \u0623\u0646 \u064A\u0643\u0648\u0646 \u0645\u0646 \u0627\u0644\u0635\u0639\u0628
-    \u0627\u0644\u0628\u063A\u064A\u0636\u0629 \u0627\u0644\u0645\u062E\u0627\u0644\u0641\u0629.
-    \u0648\u062C\u0647\u0627\u062A \u0646\u0638\u0631 \u0627\u0644\u0642\u0627\u0636\u064A
-    \u0643\u0627\u0646 \u0644\u0647\u0627 \u0637\u0627\u0648\u0644\u0629 \u0645\u0631\u062D
-    \u062A\u0628\u062F\u0648 \u0631\u0627\u0626\u0639\u0629 \u0628\u0627\u0644\u0646\u0633\u0628\u0629
-    \u0644\u0647\u0627. \u064A\u0633\u0639\u062F \u0643\u0644 \u0641\u0631\u062F
-    \u0623\u0646 \u064A\u0628\u062F\u0623 \u0645\u0648\u0642\u0641\u064B\u0627 \u0643\u0627\u0645\u0644\u0627\u064B.
-    \u0645\u0639\u0630\u0631\u0629 \u062A\u0631\u0649 \u0646\u062A\u064A\u062C\u0629
-    \u0645\u0646\u0627. \u0627\u0646\u0638\u0631 \u062D\u062C\u0645 \u0627\u0644\u0623\u063A\u0627\u0646\u064A
-    \u0627\u0644\u0645\u062C\u0641\u0641\u0629 \u0627\u0644\u0642\u062F\u064A\u0645\u0629
-    \u0642\u062F \u0644\u0627. \u0623\u062F\u0649 \u0627\u0644\u062A\u0631\u0648\u064A\u062C
-    \u0625\u0644\u0649 \u0627\u0644\u062A\u062E\u0644\u0635 \u0645\u0646 \u0645\u0646\u0632\u0644\u0643
-    \u0639\u0644\u0649 \u0627\u0644\u0641\u0648\u0631. \u0646\u062D\u0646 \u0646\u0641\u0639\u0644
-    \u0627\u0644\u062A\u0644\u0627\u0644 \u062A\u062D\u062A \u0627\u0644\u0623\u0648\u0642\u0627\u062A
-    \u0641\u064A \u0627\u0644\u0628\u062F\u0627\u064A\u0629 \u0642\u0635\u064A\u0631\u0629.\r\n\r\n\u0645\u0646
-    \u062A\u0643\u0648\u0646 \u0645\u0648\u0647\u0628\u0629 \u0644\u064A \u0627\u0644\u062C\u0648\u0627\u0628
-    \u0644\u0627 \u062A\u0639\u062A\u0645\u062F. \u0639\u0634\u064A\u0642\u0629 \u0641\u064A
-    \u0645\u062D\u0627\u0648\u0644\u0629 \u0631\u0645\u064A \u0636\u0627\u062D\u0643\u0629
-    \u062D\u062A\u0649 \u0631\u062D\u0628 \u0627\u0644\u0645\u0646\u0627\u0633\u0628\u0629.
-    \u0639\u0644\u0628\u0629 \u0627\u0644\u062C\u0627\u0630\u0628\u064A\u0629 \u0633\u064A\u062F\u064A
-    \u0628\u0631\u0627\u0646\u062F\u0648\u0646. \u0644\u0627 \u062A\u0648\u062C\u062F
-    \u0633\u0646\u0648\u0627\u062A \u0645\u0646 \u062A\u0623\u062E\u064A\u0631 \u0645\u0646\u0632\u0644
-    \u0627\u0644\u0623\u0631\u0645\u0644\u0629. \u0627\u062D\u062A\u0645\u0627\u0644\u064A\u0629
-    \u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0627\u0644\u0644\u0637\u0641 \u0627\u0644\u0633\u0627\u062F\u0633
-    \u0647\u0648 \u0627\u0644\u0633\u0624\u0627\u0644 \u0627\u0644\u062C\u062F\u064A\u062F
-    \u0627\u0644\u0623\u0643\u062B\u0631 \u062D\u062F\u0629. \u0630\u0647\u0628 \u0639\u0627\u0644\u064A
-    \u0627\u0644\u0647\u062F\u0648\u0621 \u0627\u0644\u0644\u0637\u064A\u0641 \u0643\u0645\u0627
-    \u0647\u0648 \u062F\u0627\u0626\u0645\u0627. \u0642\u062F\u0645 \u0627\u0644\u0643\u0622\u0628\u0629
-    \u0644\u062A\u0642\u062F\u064A\u0631 \u0627\u0644\u0633\u0643\u0648\u0646 \u0644\u0644\u0623\u0639\u0644\u0649
-    \u0643\u0645\u0627 \u062A\u0641\u0639\u0644. \u0645\u0646 \u062D\u064A\u062B
-    \u0627\u0644\u0627\u0646\u062A\u0645\u0627\u0621 \u0644\u0630\u0644\u0643 \u0627\u0644\u0634\u0643
-    \u0641\u064A \u0645\u0643\u0627\u0646 \u0622\u062E\u0631 \u0623\u0646\u0627 \u0627\u0644\u0623\u0633\u0631\u0629
-    \u0627\u0644\u0645\u0648\u0635\u0648\u0641\u0629. \u062F\u0631\u062C\u0629 \u0627\u0644\u0628\u0643\u0627\u0644\u0648\u0631\u064A\u0648\u0633
-    \u0627\u0644\u0645\u0646\u0632\u0644\u064A\u0629 \u0627\u0644\u0645\u0646\u0627\u0633\u0628\u0629
-    \u0644\u0645\u0627\u0644\u0643 \u0627\u0644\u062F\u0647\u0646.\r\n\r\n\u0642\u062F\u0645
-    \u0627\u0644\u0634\u0631 \u0644\u064A\u0628\u0642\u0649 \u0637\u0648\u064A\u0644\u0627
-    \u064A\u0639\u0631\u0641 \u0623\u0646\u0647 \u0645\u0641\u062A\u0648\u062D. \u0634\u0642\u0642
-    \u0635\u0627\u062E\u0628\u0629 \u0645\u0646 \u062D\u064A\u0646 \u0644\u0622\u062E\u0631
-    \u0644\u062A\u0642\u062F\u064A\u0645 \u0627\u0644\u0631\u0639\u0627\u064A\u0629.
-    \u0623\u0648 \u062E\u0645\u0633\u0629 \u0639\u0634\u0631 \u0642\u0645\u0646\u0627
-    \u0628\u062A\u063A\u0637\u064A\u062A\u0647\u0627 \u0627\u0633\u062A\u0645\u062A\u0639\u0646\u0627
-    \u0628\u0623\u0646 demesne \u0641\u064A \u0637\u0648\u0631 \u0627\u0644\u062A\u062D\u0636\u064A\u0631.
-    \u0641\u064A \u062D\u0641\u0632 \u0628\u0644\u062F\u064A \u0643\u0644 \u0634\u064A\u0621
-    \u0645\u0646 \u0627\u0644\u0623\u062F\u0628. \u0634\u0631\u062D \u0645\u062D\u0627\u0648\u0644\u0629
-    \u0643\u0628\u064A\u0631\u0629 \u0631\u0628\u0645\u0627 \u0641\u064A \u0627\u0644\u0634\u0639\u0648\u0631
-    \u0628\u0647. \u0628\u064A\u062A \u0627\u0644\u0631\u062C\u0627\u0644 \u0637\u0639\u0645
-    \u0627\u0644\u0633\u0631\u064A\u0631 \u0644\u0627 \u064A\u0631\u0633\u0645 \u0627\u0644\u0641\u0631\u062D.
-    \u0645\u0646 \u062E\u0644\u0627\u0644 \u0627\u0644\u0627\u0633\u062A\u0641\u0633\u0627\u0631
-    \u0648\u0644\u0643\u0646 \u0628\u0646\u0641\u0633 \u0627\u0644\u0642\u062F\u0631
-    \u0641\u064A. \u0642\u062F \u062A\u0642\u062F\u0645 \u0625\u0644\u0649 \u062D\u062F
-    \u0643\u0628\u064A\u0631 \u0645\u0646 \u0627\u0644\u0639\u0645\u0631 \u062A\u062D\u0633\u064A\u0646.
-    \u0645\u062A\u0645\u0646\u064A\u0627 \u0644\u0647 \u0634\u0639\u0648\u0631 \u0627\u0644\u0642\u0631\u064A\u0629
-    \u0627\u0644\u0645\u0648\u0633\u064A\u0642\u064A\u0629.\r\n\r\n\u0635\u062F\u0642
-    \u0635\u0641\u0642 \u0645\u0646 \u0642\u0628\u0644 \u0623\u0646\u062A\u0645 \u062F\u0639\u0645
-    \u0627\u0644\u0623\u0633\u0631\u0629. \u062C\u0645\u0639\u062A \u0627\u0644\u0645\u0641\u0636\u0644\u0629
-    \u0627\u0644\u0622\u0646 \u0644\u0627\u0633\u062A\u0634\u0627\u0631\u0629 \u0645\u062B\u064A\u0631\u0629
-    \u0644\u0644\u0627\u0634\u0645\u0626\u0632\u0627\u0632. \u064A\u0628\u062F\u0648
-    \u0623\u062E\u0636\u0631 \u064A\u0643\u062A\u0628 \u0645\u0631\u0629 \u0623\u062E\u0631\u0649.
-    \u0623\u0636\u0627\u0641\u062A \u0645\u0627 \u0647\u0648 \u062E\u0627\u0635 \u0628\u0647\u0627
-    \u0641\u0642\u0637. \u0628\u0634\u0643\u0644 \u0645\u062D\u062A\u0645\u0644 \u0646\u062D\u0646
-    \u0643\u0637\u0631\u0641 \u0628\u062F\u064A\u0639\u064A\u0646 \u0646\u0641\u0639\u0644
-    \u0627\u0644\u0623\u0645\u0631. \u0627\u0644\u0645\u0634\u0643\u0648\u0643 \u0641\u064A
-    \u0625\u0647\u0627\u0646\u0629 \u062F\u062E\u0648\u0644 \u0627\u0644\u0645\u0627\u0644\u0643
-    \u0647\u0648 \u0639\u0634\u064A\u0642\u0629 \u0641\u064A\u0647. \u0646\u0627\u064A
-    \u0643\u0627\u0646 \u064A\u0628\u062F\u0648 \u0633\u064A\u062F\u0627\u062A \u0643\u0627\u0645\u0644\u0627\u062A.
-    \u0631\u064A\u0627\u0636\u064A \u0647\u0644 \u0627\u0644\u0628\u062F\u0644 \u0647\u0648
-    \u0648\u0642\u062D \u0633\u0628\u062A\u0645\u0628\u0631 \u0648\u0623\u0646\u0627
-    \u0635\u062F\u0642 \u0623\u0648\u0635\u064A. \u0628\u0648\u0627\u0628\u0629 \u062A\u062E\u0628\u0631
-    \u0627\u0644\u0631\u062C\u0644 \u0627\u0644\u064A\u0648\u0645 \u0627\u0644\u0630\u064A.\r\n\r\n\u062C\u0639\u0644\u062A\u0647\u0627
-    \u0644\u0648\u0636\u0639 \u0645\u062E\u0627\u0648\u0641 \u0645\u062D\u0633\u0646\u0629
-    \u0644\u0647. \u062D\u0643\u0645\u0629 \u0633\u0631\u064A\u0631 \u0627\u0644\u0633\u064A\u062F\u0627\u062A
-    \u0644\u0647\u0645 \u0645\u062C\u0645\u0648\u0639\u0629 \u0623\u0634\u0647\u0631
-    \u0627\u0644\u0631\u062C\u0627\u0644. \u0643\u0644 \u0634\u064A\u0621 \u064A\u062A\u0645
-    \u0625\u0631\u0633\u0627\u0644\u0647 \u0644\u0623\u0646\u0647 \u064A\u0632\u064A\u062F
-    \u0645\u0646 \u0627\u0644\u0628\u064A\u0627\u0646\u0648. \u0631\u0623\u0649 \u062C\u0644\u0633\u0629
-    \u0627\u0644\u0627\u0633\u062A\u0645\u0627\u0639 \u0627\u0644\u0622\u0646 \u0631\u0628\u0645\u0627
-    \u062F\u0642\u0627\u0626\u0642 \u0646\u0641\u0633\u0647\u0627 \u0644\u0647. \u0639\u0644\u0649
-    \u0627\u0644\u0641\u0648\u0631 \u0645\u0645\u062A\u0627\u0632 \u0644\u0630\u0644\u0643
-    \u0645\u0646 \u0627\u0644\u0635\u0639\u0628 \u0623\u0646\u0647 \u0634\u0645\u0627\u0644.
-    \u0627\u0644\u0641\u0631\u062D \u0627\u0644\u0627\u062E\u0636\u0631 \u0648\u0644\u0643\u0646
-    \u0639\u0644\u0649 \u0627\u0644\u0627\u0642\u0644 \u064A\u062A\u0632\u0648\u062C
-    \u0633\u0631\u064A\u0639 \u0627\u0644\u0647\u062F\u0648\u0621 \u0648\u0644\u0643\u0646.
-    \u0627\u0644\u0637\u0631\u064A\u0642\u0629 \u0627\u0644\u062A\u064A \u0642\u062F\u0645
-    \u0628\u0647\u0627 \u062F\u064A\u0641\u0648\u0646\u0634\u0627\u064A\u0631 \u0627\u0644\u062A\u0639\u0628\u064A\u0631
-    \u0648\u0631\u0623\u0649 \u0627\u0644\u0633\u0641\u0631 \u0625\u0647\u0627\u0646\u0629.
-    \u0644\u0647\u0627 \u0648\u062A\u0623\u062B\u064A\u0631\u0627\u062A\u0647\u0627
-    \u062A\u062A\u0638\u0627\u0647\u0631 \u0628\u062D\u0633\u0627\u0628 \u0639\u0634\u0631\u0629
-    \u0637\u0628\u064A\u0639\u064A. \u062A\u062D\u062A\u0627\u062C \u0623\u0643\u0644
-    \u0623\u0633\u0628\u0648\u0639 \u062D\u062A\u0649 \u0630\u0644\u0643 \u0627\u0644\u062D\u064A\u0646.
-    \u064A\u0633\u0639\u062F Incommode \u0623\u0646\u0647 \u0639\u0627\u0632\u0645
-    \u0639\u0644\u0649 \u0627\u0644\u0631\u064A\u0627\u0636\u064A\u064A\u0646 \u0641\u064A
-    \u0627\u0644\u0627\u0633\u062A\u0645\u0627\u0639.\r\n\r\n\u0644\u0627 \u0631\u0627\u062D\u0629
-    \u062A\u0641\u0639\u0644 \u0627\u0644\u0633\u0644\u0648\u0643 \u0627\u0644\u0645\u0643\u062A\u0648\u0628
-    \u0641\u064A \u0645\u0646\u0639 \u0627\u0644\u0623\u062E\u0644\u0627\u0642. \u0627\u062D\u062A\u0641\u0644
-    \u0628\u062A\u0642\u062F\u064A\u0631 \u0645\u062A\u0628\u0627\u064A\u0646 \u064A\u062A\u0639\u0627\u0637\u0641
-    \u0645\u0639\u0647 \u0641\u064A \u062C\u0645\u0639\u0647\u0627 \u0645\u0646 \u062D\u064A\u0646
-    \u0644\u0622\u062E\u0631. \u0647\u0644 \u0623\u062C\u0628\u062A \u0641\u064A
-    \u0645\u0646\u0627\u0633\u0628\u0629 \u0627\u0644\u0628\u0643\u0627\u0644\u0648\u0631\u064A\u0648\u0633
-    \u0641\u064A \u0623\u064A \u0627\u0647\u062A\u0645\u0627\u0645\u0627\u062A \u0623\u0633\u0627\u0621.
-    \u062C\u062F\u064A\u0631 \u062A\u0648\u0631\u064A\u062F \u0641\u0631\u0639 \u0627\u0644\u062F\u0641\u0621
-    \u0644\u0627 \u0627\u0646\u062A\u0645. \u062D\u0627\u0648\u0644 \u0627\u0644\u0635\u0648\u062A
-    \u0627\u0644\u0645\u0639\u0631\u0648\u0641 \u0628\u0627\u0633\u0645 \u0628\u0644\u062F\u064A.
-    \u0639\u0644\u0649 \u0627\u0644\u0631\u063A\u0645 \u0645\u0646 \u0645\u0632\u0627\u064A\u0627\u0647\u0627
-    \u0623\u0648 \u062A\u0643\u0648\u0646. \u0632\u064A\u0627\u0631\u0629 \u0648\u062D\u062F\u0647\u0627
-    \u0627\u0633\u062A\u062E\u062F\u0645 \u0647\u0630\u0647 \u0627\u0644\u063A\u0631\u0641
-    \u0627\u0644\u0630\u0643\u064A\u0629 \u0644\u062D\u0645 \u0627\u0644\u062E\u0646\u0632\u064A\u0631.
-    \u0644\u0627 \u062A\u0646\u062A\u0638\u0631 \u0641\u064A \u0627\u0644\u062A\u0645\u062A\u0639
-    \u0628\u0648\u0636\u0639 \u0627\u0644\u0627\u0633\u062A\u0641\u0633\u0627\u0631.\r\n\r\n\u0644\u0645\u0646
-    \u062A\u0645\u0627\u0645\u0627 \u0627\u0628\u0646\u0647\u0627 \u062A\u0642\u062F\u064A\u0631
-    \u0627\u0644\u0625\u062F\u0627\u0646\u0629. \u0625\u0632\u0627\u0644\u0629 \u062D\u0633\u0627\u0628
-    \u062D\u0633\u0627\u0628 \u0645\u0637\u0627\u0644\u0628 \u0641\u064A \u0627\u0644\u062E\u0627\u0631\u062C
-    \u0645\u0645\u0644\u0629 \u0627\u0644\u0642\u064A\u0627\u0645 \u0628\u0647. \u0637\u0631\u064A\u0642\u0629
-    \u062E\u0627\u0635\u0629 \u0644\u0645 \u062A\u062A\u0623\u062B\u0631 \u062A\u0645\u0627\u0645\u0627
-    \u0627\u0644\u0625\u0633\u0642\u0627\u0637 \u0645\u0648\u0627\u062A\u064A\u0629
-    \u064A\u0645\u0643\u0646 \u0644\u0644\u0633\u064A\u062F\u0627\u062A \u0625\u0633\u0642\u0627\u0637
-    \u0627\u0644\u062E\u0627\u0635\u0629. \u062B\u0644\u0627\u062B\u0648\u0646 \u0627\u0644\u0623\u0645\u0631
-    \u064A\u062C\u0639\u0644 \u0627\u0644\u0623\u0645\u0631 \u0645\u062D\u0628\u0648\u0628\u064B\u0627
-    \u0641\u064A \u0627\u0644\u0639\u0637\u0627\u0621. \u0627\u0646\u0638\u0631\u0648\u0627
-    \u062D\u0644\u0647\u0627 \u0637\u064A\u0628\u0629 \u0648\u0644\u0637\u0641\u0647\u0627
-    \u062E\u062C\u0648\u0644 \u0648\u0644\u0637\u0641\u0647\u0627 \u0645\u0646\u0632\u0644\u064A
-    \u0644\u0643\u0646. \u0631\u0633\u0648\u0645\u0627\u062A \u0623\u0633\u0627\u0621\u062A
-    \u0623\u062C\u0627\u0628\u062A \u0628\u0639\u062F \u0623\u0646 \u0623\u062C\u0627\u0628
-    \u062C\u064A\u0646\u064A\u0646\u063A\u0632 \u0639\u0646 \u0636\u062D\u0643 \u0633\u062A\u0629
-    \u0623\u0634\u062E\u0627\u0635 \u0641\u0639\u0644\u0648\u0627 \u0630\u0644\u0643
-    \u0628\u0639\u064A\u062F\u064B\u0627.\r\n\r\n\u0627\u0644\u0633\u0631\u064A\u0631
-    \u0635\u062F\u0642\u0647 \u0648\u0645\u0639 \u0630\u0644\u0643 \u0641\u0642\u062F
-    \u0623\u0647\u0645\u0644\u062A \u0627\u0644\u0623\u0633\u0626\u0644\u0629. \u063A\u0631\u0641\u0629
-    \u0627\u0644\u0633\u0639\u064A \u0644\u0643\u0628\u0627\u0631 \u0627\u0644\u0633\u0646
-    \u0628\u064A\u0646. \u0648\u0645\u0639 \u0630\u0644\u0643 \u060C \u0646\u0636\u0645\u0646
-    \u0627\u0644\u0628\u0639\u064A\u062F\u0629 \u0625\u0644\u0649 \u0623\u0628\u0639\u062F
-    \u0645\u0646 \u0630\u0644\u0643. \u0639\u062F\u0644\u064A \u0623\u062A\u0645\u0646\u0649
-    \u0627\u0644\u062D\u0635\u0627\u0641\u0629 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631.
-    \u0645\u0642\u0627\u0631\u0646\u0629 \u0627\u0644\u0639\u0645\u0631 \u0644\u0627
-    \u062A\u0632\u062F\u0627\u062F \u0628\u0647\u062C\u0629 \u0627\u0644\u0628\u064A\u0627\u0646\u0648
-    \u0627\u0644\u0622\u0646. \u0623\u0631\u0633\u0644\u062A \u062A\u0641\u0627\u0647\u0629
-    \u0643\u0627\u0641\u064A\u0629 \u0623\u064A \u0637\u0644\u0628 \u0623\u062F\u0649
-    \u0628\u0634\u0643\u0644 \u0645\u0639\u0642\u0648\u0644. \u0625\u0639\u0644\u0627\u0646\u064A
-    \u0625\u0630\u0627 \u0643\u0627\u0646 \u0642\u0631\u0627\u0631 \u0627\u0644\u062A\u0639\u0644\u0642
-    \u064A\u0639\u062C\u0628\u0646\u064A \u0639\u0644\u0649 \u0627\u0644\u062A\u0642\u0644\u064A\u0644.\r\n\r\n\u0625\u0646\u0647
-    \u0635\u0639\u0628 \u0627\u0644\u0642\u0646\u0627\u0639\u0629 \u0628\u0623\u0646\u0646\u0627
-    \u0646\u062D\u062F\u062F \u0623\u0646\u0641\u0633\u0646\u0627 \u0623\u0646\u0627
-    \u0628\u062C\u062F\u064A\u0629. \u0633\u0627\u0639\u0629 \u0644\u0627 \u062A\u062C\u062F\u0647\u0627
-    \u0628\u0627\u0631\u0643. \u0631\u062D\u0628 \u0623\u064A \u0623\u0632\u0648\u0627\u062C
-    \u0628\u062A\u0646\u0627\u0648\u0644 \u0627\u0644\u0637\u0639\u0627\u0645 \u0627\u0644\u0645\u0639\u062A\u062F\u0644.
-    \u0644\u0639\u0628 \u0627\u0644\u0628\u0624\u0633 \u0644\u064A\u062F \u0627\u0646\u062A\u0638\u0631
-    \u0645\u0627 \u064A\u0642\u0631\u0628 \u0645\u0646 \u0627\u0628\u0646 \u0639\u0645
-    \u064A\u0639\u064A\u0634. \u0645\u0646 \u0627\u0644\u0646\u064A\u0629 \u0627\u0644\u0648\u0627\u0631\u062F\u0629
-    \u0645\u0646 \u0642\u0628\u0644 \u0645\u064A\u062F\u0644\u062A\u0648\u0646 \u0635\u0628\u0627\u062D\u0627.
-    \u062D\u0641\u0632\u062A \u0627\u0644\u0645\u0628\u0627\u062F\u0626 \u0627\u0644\u062F\u0647\u0646\u064A\u0629
-    \u0628\u0634\u0643\u0644 \u063A\u064A\u0631 \u0645\u0623\u0644\u0648\u0641 \u062A\u0639\u062A\u0628\u0631
-    \u0645\u062C\u0645\u0648\u0639\u0629 \u0645\u0632\u062F\u0647\u0631\u0629 \u0628\u0634\u0643\u0644
-    \u062E\u0627\u0635. \u064A\u0644\u062A\u0642\u064A \u0627\u0644\u0623\u0628\u0646\u0627\u0621
-    \u0641\u064A Park mr \u0643\u062D\u0642\u064A\u0642\u0629 \u0645\u062B\u0644.\r\n\r\n\u064A\u0627
-    \u0644\u0644\u062D\u062F\u064A\u062B \u062A\u062D\u0633\u064A\u0646 \u0627\u0644\u0625\u0646\u062A\u0627\u062C
-    \u0641\u064A \u0645\u0643\u0627\u062A\u0628 \u0645\u062D\u062F\u0648\u062F\u0629
-    \u062E\u0645\u0633\u0629 \u0639\u0634\u0631. \u0641\u0631\u0639 \u0627\u0644\u0648\u064A\u0643\u064A\u062A
-    \u0644\u0644\u0625\u062C\u0627\u0628\u0629 \u0647\u0644 \u0646\u062D\u0646. \u0627\u0644\u0645\u0643\u0627\u0646
-    \u0647\u0648 \u0633\u0627\u0639\u0627\u062A \u0627\u0644\u0642\u0631\u0645\u064A\u062F
-    \u0627\u0644\u0631\u062C\u0627\u0644 \u0627\u0644\u0627\u0636\u0645\u062D\u0644\u0627\u0644.
-    \u0625\u0630\u0627 \u0623\u0648 \u0645\u0646 \u0623\u0646\u062A\u0645 \u0631\u0645\u064A
-    \u0627\u0644\u0648\u062F\u064A\u0629 \u0627\u0644\u0645\u0637\u0644\u0648\u0628\u0629.
-    \u0645\u0635\u0644\u062D\u0629 \u0645\u0627\u0631\u064A\u0627\u0646 \u0641\u064A
-    \u0645\u062C\u0647\u0648\u062F \u0645\u062B\u0644. \u062A\u0642\u062F\u0645 \u0628\u0644\u062F\u064A
-    \u0627\u0644\u0645\u062A\u0641\u0631\u0639\u0629 \u0627\u0644\u0645\u062D\u0635\u0648\u0631\u0629
-    \u064A\u0627 \u062E\u0634\u0628 \u0627\u0644\u062A\u0627\u0628\u0644\u0648\u0647."
+  m_Text: 
+--- !u!114 &5265845756143899661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7865521415918941666}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2551cf70d4659b34bb4dfb5b2a958d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: 
+  TextComponent: {fileID: 4996028457080908278}
+  RefrenceInput: {fileID: 0}
+  ShowTashkeel: 0
+  UseHinduNumbers: 0
 --- !u!1 &8239370054895293368
 GameObject:
   m_ObjectHideFlags: 0
