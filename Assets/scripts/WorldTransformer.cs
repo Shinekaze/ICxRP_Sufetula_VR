@@ -21,6 +21,9 @@ public class WorldTransformer : MonoBehaviour
     [SerializeField]
     public ARSessionOrigin ARSessionOrigin;
     
+    [SerializeField]
+    public float CameraYOffset;
+    
     // public void WorldTransform(string QRContents)
     // {
     //     Vector3 WorldStartPos = transform.position;
@@ -82,7 +85,7 @@ public class WorldTransformer : MonoBehaviour
         // store as a Vector3
         Vector3 result = new Vector3(
             float.Parse(sArray[0]),
-            float.Parse(sArray[1]),
+            float.Parse(sArray[1]) + CameraYOffset,
             float.Parse(sArray[2]));
     
         return result;
