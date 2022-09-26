@@ -1151,6 +1151,16 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2397966898358580848, guid: a7fc2090d65e74d4da76693198ed1e1f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1325565451}
+    - target: {fileID: 2397966898358580848, guid: a7fc2090d65e74d4da76693198ed1e1f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: CamRotate
+      objectReference: {fileID: 0}
     - target: {fileID: 2486748409056083514, guid: a7fc2090d65e74d4da76693198ed1e1f,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -13330,6 +13340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1325565450}
   - component: {fileID: 1325565449}
+  - component: {fileID: 1325565451}
   m_Layer: 0
   m_Name: World
   m_TagString: Untagged
@@ -13373,6 +13384,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1325565451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325565448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e90444d6de22b43a6f4387a9d74d64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ARCam: {fileID: 89537562}
+  ARSessionOrigin: {fileID: 89537573}
 --- !u!1001 &1336765959
 PrefabInstance:
   m_ObjectHideFlags: 0
