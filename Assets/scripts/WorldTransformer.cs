@@ -59,15 +59,15 @@ public class WorldTransformer : MonoBehaviour
 
     public void WorldTransform(string QRContent)
     {
-        // float ARSessionX = ARSessionOrigin.transform.position.x + ARCam.transform.position.x;
-        // float ARSessionY = ARSessionOrigin.transform.position.y + ARCam.transform.position.y;
-        // float ARSessionZ = ARSessionOrigin.transform.position.z + ARCam.transform.position.z;
-        // Vector3 ARSessionPos = new Vector3(ARSessionX, ARSessionY, ARSessionZ);
+        float ARSessionX = ARSessionOrigin.transform.position.x - ARCam.transform.position.x;
+        float ARSessionY = 0;
+        float ARSessionZ = ARSessionOrigin.transform.position.z - ARCam.transform.position.z;
+        Vector3 ARSessionPos = new Vector3(ARSessionX, ARSessionY, ARSessionZ);
         // float ARCamRotY = ARCam.transform.rotation.eulerAngles.y;
         // Quaternion CamRot = Quaternion.Euler(0, 0, 0);
-        ARSessionOrigin.transform.position = StringToVector3(QRContent);
+        ARSessionOrigin.transform.position = StringToVector3(QRContent) + ARSessionPos;
         // ARSessionOrigin.transform.rotation = Quaternion.Euler(0, -(0-ARCamRotY), 0);
-        ARSessionOrigin.transform.rotation = Quaternion.Euler(0, 0, 0);
+        ARSessionOrigin.transform.rotation = Quaternion.Euler(0, 90, 0);
 
     }
     
